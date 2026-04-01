@@ -89,13 +89,79 @@ That’s it ✅
 
 ---
 
-## Notes
+---
 
-* Some projects may require additional setup (e.g., API keys in a `.env` file)
-* Check each project’s README for project-specific instructions
+## Part 4 — Environment Variables (.env)
+
+Some projects in this repository require **API keys or configuration values**.
+These are stored in a `.env` file so sensitive information is not shared publicly.
 
 ---
 
-## You're Ready 🚀
+### Step 1 — Create a `.env` File
 
-You can now explore and run the projects in this repository.
+In the root of the project, create a file named:
+
+```bash
+.env
+```
+
+---
+
+### Step 2 — Add Your Keys
+
+Open the `.env` file and add your keys in this format:
+
+```env
+PUSHOVER_USER=your_user_key_here
+PUSHOVER_TOKEN=your_app_token_here
+```
+
+👉 Replace the values with your actual keys.
+
+---
+
+### Step 3 — Load the Variables in Code
+
+Make sure your Python scripts load the `.env` file:
+
+```python
+from dotenv import load_dotenv
+load_dotenv(override=True)
+```
+
+---
+
+### Example: Pushover Setup
+
+If you're using the **Interactive Resume Agent**, you’ll need Pushover:
+
+1. Go to: https://pushover.net/
+2. Create an account
+3. Create a new application
+4. Copy:
+
+   * Your **User Key** (usually starts with `u_`)
+   * Your **API Token** (usually starts with `a_`)
+
+Add them to your `.env` file as shown above.
+
+---
+
+## ⚠️ Important
+
+* Never commit your `.env` file to GitHub
+* Make sure `.env` is listed in your `.gitignore`
+
+Example:
+
+```bash
+.env
+```
+
+---
+
+## You're Good to Go ✅
+
+Once your `.env` file is set up, the projects that require API access should work correctly.
+
