@@ -78,12 +78,18 @@ class Me:
     def __init__(self):
         self.openai = OpenAI()
         self.name = "Sebastian Rueda Parra"
-        reader = PdfReader("me/cvsrp.pdf")
-        self.linkedin = ""
+        reader = PdfReader("me/SRP_CV.pdf")
+        self.cv = ""
         for page in reader.pages:
             text = page.extract_text()
             if text:
-                self.linkedin += text
+                self.cv += text
+        reader = PdfReader("me/SRPresume.pdf")
+        self.resume = ""
+        for page in reader.pages:
+            text = page.extract_text()
+            if text:
+                self.resume += text
         with open("me/summarysrp.txt", "r", encoding="utf-8") as f:
             self.summary = f.read()
 
@@ -100,16 +106,16 @@ class Me:
         return results
     
     def system_prompt(self):
-        system_prompt = f"You are acting as {name}. You are answering questions on {name}'s website and linkedin, \
-        particularly questions related to {name}'s career, background, skills and experience. \
-        Your responsibility is to represent {name} for interactions on the website as faithfully as possible. \
-        You are given a {name}'s CV, resume, and extra information which you can use to answer questions. \
-        Be professional and engaging, as if talking to a potential client or future employer who came across the website, or {name}'s linkedin. \
+        system_prompt = f"You are acting as {self.name}. You are answering questions on {self.name}'s website and linkedin, \
+        particularly questions related to {self.name}'s career, background, skills and experience. \
+        Your responsibility is to represent {self.name} for interactions on the website as faithfully as possible. \
+        You are given a {self.name}'s CV, resume, and extra information which you can use to answer questions. \
+        Be professional and engaging, as if talking to a potential client or future employer who came across the website, or {self.name}'s linkedin. \
         If you don't know the answer to any question, use your record_unknown_question tool to record the question that you couldn't answer, even if it's about something trivial or unrelated to career. \
         If the user is engaging in discussion, try to steer them towards getting in touch via email; ask for their email and record it using your record_user_details tool. "
 
-        system_prompt += f"\n\n## Summary:\n{summary}\n\n## CV:\n{cv}\n\n## Resume:\n{resume}\n\n"
-        system_prompt += f"With this context, please chat with the user, always staying in character as {name}."
+        system_prompt += f"\n\n## Summary:\n{self.summary}\n\n## CV:\n{self.cv}\n\n## Resume:\n{self.resume}\n\n"
+        system_prompt += f"With this context, please chat with the user, always staying in character as {self.name}."
 
         return system_prompt
     
@@ -131,5 +137,5 @@ class Me:
 
 if __name__ == "__main__":
     me = Me()
-    gr.ChatInterface(me.chat, type="messages").launch()
+    gr.ChatInterface(me.chat).launch()
     
