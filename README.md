@@ -1,6 +1,6 @@
 # Agentic AI Projects
 
-This repository contains a collection of **agentic AI projects** exploring how large language models can interact with tools, data, and users in structured, goal-oriented workflows.
+This repository contains a collection of **agentic AI projects** exploring how large language models LLMs can interact with tools, data, and users in structured, goal-oriented workflows.
 
 The focus is on building practical systems that combine:
 
@@ -33,12 +33,23 @@ agenticAI/
 
 ### 🔹 Interactive Resume Agent
 
-An AI-powered conversational assistant that answers questions about my background, experience, and projects using a Gradio interface.
-Includes tool usage (e.g., notifications) and structured personal knowledge retrieval.
+An **agentic AI assistant** that represents me in a conversational setting.  
+It can answer questions about my background, research, projects, and career journey through a Gradio interface.
 
-👉 See more: `interactive_resume/README.md`
+The system combines:
+- Structured personal knowledge (CV, resume, projects)
+- Tool usage (e.g., push notifications when unsure)
+- Conversational reasoning
+
+👉 In short: it’s a chatbot that can speak on my behalf.
+
+Give it a try 👇  
+🔗 https://huggingface.co/spaces/elcapizevaz13/career_conversation
+👉 Learn more and run it locally: `interactive_resume/README.md`  
+Deployment instructions are also included there.---
 
 ---
+
 
 *(More projects will be added here over time.)*
 
@@ -75,7 +86,7 @@ New projects and improvements will be added regularly.
 
 Some projects may:
 
-* Require API keys (stored securely using `.env`)
+* Require API keys (stored securely using `.env`, see [`SETUP.md`](./SETUP.md))
 * Use third-party tools or services
 * Include experimental features
 
