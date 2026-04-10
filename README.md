@@ -50,6 +50,16 @@ Deployment instructions are also included there.---
 
 ---
 
+### 🔹 Resume Creator
+
+<img width="1536" height="1024" alt="architectureAI" src="https://github.com/user-attachments/assets/bc73561f-df0b-4350-a3db-916971e2a5a3" />
+This project implements a multi-agent AI architecture for automatically improving and rewriting resumes for candidates targeting roles in Data Science and AI Engineering.
+
+It uses a hierarchical system of agents: an Advisor Manager that synthesizes expert feedback from multiple AI tools, and a Writer Agent that produces a final polished resume.
+
+This project implements a multi-agent AI architecture for automatically improving and rewriting resumes for candidates targeting roles in Data Science and AI Engineering.
+
+It uses a hierarchical system of agents: an Advisor Manager that synthesizes expert feedback from multiple AI tools, and a Writer Agent that produces a final polished resume.
 
 *(More projects will be added here over time.)*
 
