@@ -57,9 +57,7 @@ This project implements a multi-agent AI architecture for automatically improvin
 
 It uses a hierarchical system of agents: an Advisor Manager that synthesizes expert feedback from multiple AI tools, and a Writer Agent that produces a final polished resume.
 
-This project implements a multi-agent AI architecture for automatically improving and rewriting resumes for candidates targeting roles in Data Science and AI Engineering.
-
-It uses a hierarchical system of agents: an Advisor Manager that synthesizes expert feedback from multiple AI tools, and a Writer Agent that produces a final polished resume.
+---
 
 *(More projects will be added here over time.)*
 
