@@ -59,6 +59,14 @@ It uses a hierarchical system of agents: an Advisor Manager that synthesizes exp
 
 ---
 
+### 🔹 Piano Practice Log
+
+<img width="927" height="238" alt="image" src="https://github.com/user-attachments/assets/817fab3f-bc86-4804-823c-6a353fc496fa" />
+
+This project turns unstructured piano practice notes into structured, queryable data using an agent-based pipeline.
+
+Instead of forcing rigid input during practice, I keep natural, free-form notes and use AI agents to parse, normalize, and store them automatically.
+
 *(More projects will be added here over time.)*
 
 ---
