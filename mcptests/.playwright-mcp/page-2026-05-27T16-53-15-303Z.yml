@@ -1,0 +1,147 @@
+- generic [ref=e2]:
+  - list:
+    - listitem:
+      - link "Skip to primary navigation" [ref=e3] [cursor=pointer]:
+        - /url: "#genesis-nav-primary"
+    - listitem:
+      - link "Skip to main content" [ref=e4] [cursor=pointer]:
+        - /url: "#genesis-content"
+    - listitem:
+      - link "Skip to primary sidebar" [ref=e5] [cursor=pointer]:
+        - /url: "#genesis-sidebar-primary"
+  - generic [ref=e6]:
+    - img "Flavor Madness Cookbook" [ref=e7]
+    - link "My New cookbook FLAVOR MADNESS is here - Shop the cookbook today →" [ref=e8] [cursor=pointer]:
+      - /url: https://www.chilipeppermadness.com/flavor-madness-cookbook/
+  - banner [ref=e9]:
+    - link "menu icon" [ref=e11] [cursor=pointer]:
+      - /url: "#feastmobilemenu"
+      - img "menu icon" [ref=e12]
+    - link "go to homepage" [ref=e16] [cursor=pointer]:
+      - /url: https://www.chilipeppermadness.com
+      - img "go to homepage" [ref=e17]
+    - link "search icon" [ref=e19] [cursor=pointer]:
+      - /url: "#feastmobilemenu"
+      - img "search icon" [ref=e20]
+  - generic [ref=e23]:
+    - main [ref=e24]:
+      - article [ref=e25]:
+        - heading "Not found, error 404" [level=1] [ref=e26]
+        - generic [ref=e27]:
+          - paragraph [ref=e28]:
+            - text: The page you are looking for no longer exists. Perhaps you can return back to the
+            - link "homepage" [ref=e29] [cursor=pointer]:
+              - /url: https://www.chilipeppermadness.com/
+            - text: and see if you can find what you are looking for. Or, you can try finding it by using the search form below.
+          - search [ref=e30]:
+            - generic [ref=e31]: Search
+            - searchbox "Search" [ref=e32]
+            - button "" [ref=e33] [cursor=pointer]
+    - complementary "Primary Sidebar" [ref=e34]:
+      - heading "Primary Sidebar" [level=2] [ref=e35]
+      - generic [ref=e36]:
+        - generic [ref=e40]:
+          - figure [ref=e42]
+          - paragraph [ref=e43]:
+            - strong [ref=e44]: Welcome to Chili Pepper Madness!
+            - text: Here you will find easy-to-follow recipes for the every day home cook, tried, tested, and spiced up just how we like it! Say goodbye to bland and boring food. Let’s get cooking!
+          - paragraph [ref=e45]:
+            - link "More about me →" [ref=e46] [cursor=pointer]:
+              - /url: /general-content/welcome-to-chili-pepper-madness/
+        - generic [ref=e47]:
+          - link "Mexican" [ref=e48] [cursor=pointer]:
+            - /url: https://www.chilipeppermadness.com/mexican/
+            - generic [ref=e49]: Mexican
+          - link "Cajun" [ref=e50] [cursor=pointer]:
+            - /url: https://www.chilipeppermadness.com/cajun/
+            - generic [ref=e51]: Cajun
+          - link "Sauces" [ref=e52] [cursor=pointer]:
+            - /url: https://www.chilipeppermadness.com/chili-pepper-recipes/sauces/
+            - generic [ref=e53]: Sauces
+          - link "Seasonings" [ref=e54] [cursor=pointer]:
+            - /url: https://www.chilipeppermadness.com/chili-pepper-recipes/spice-blends/
+            - generic [ref=e55]: Seasonings
+        - generic [ref=e61]:
+          - figure [ref=e63]:
+            - link "FLAVOR Madness Cookbook" [ref=e64] [cursor=pointer]:
+              - /url: https://www.chilipeppermadness.com/flavor-madness-cookbook/
+              - img "FLAVOR Madness Cookbook" [ref=e65]
+          - paragraph [ref=e66]:
+            - strong [ref=e67]: Order NOW and Get a FREE Downloadable with 10 Bonus Recipes!
+          - link "Learn More" [ref=e69] [cursor=pointer]:
+            - /url: https://www.chilipeppermadness.com/flavor-madness-cookbook/
+            - generic [ref=e70]: Learn More
+  - contentinfo [ref=e73]:
+    - generic [ref=e74]:
+      - heading "Footer" [level=2] [ref=e75]
+      - generic [ref=e76]:
+        - generic [ref=e78]:
+          - generic [ref=e80]:
+            - heading "NEVER MISS A RECIPE" [level=3] [ref=e81]
+            - paragraph [ref=e82]: Receive my "5 Essentials for Spicy Cooking" email series & new recipes
+          - generic [ref=e88]:
+            - textbox "First Name" [ref=e90]
+            - textbox "Email Address" [ref=e92]
+            - button "JOIN NOW" [ref=e93] [cursor=pointer]:
+              - generic [ref=e94]: JOIN NOW
+        - generic [ref=e96]:
+          - figure [ref=e100]
+          - search [ref=e103]:
+            - generic [ref=e104]: Search
+            - generic [ref=e105]:
+              - searchbox "Search" [ref=e106]
+              - button "Search" [ref=e107] [cursor=pointer]:
+                - img [ref=e108]
+          - list [ref=e112]:
+            - listitem [ref=e113]:
+              - link "Facebook" [ref=e114] [cursor=pointer]:
+                - /url: https://www.facebook.com/chilipeppermadness
+                - img [ref=e115]
+                - generic [ref=e117]: Facebook
+            - listitem [ref=e118]:
+              - link "Pinterest" [ref=e119] [cursor=pointer]:
+                - /url: https://www.pinterest.com/chilipeppermadness/
+                - img [ref=e120]
+                - generic [ref=e122]: Pinterest
+            - listitem [ref=e123]:
+              - link "Instagram" [ref=e124] [cursor=pointer]:
+                - /url: https://www.instagram.com/chilipeppermadness/
+                - img [ref=e125]
+                - generic [ref=e127]: Instagram
+            - listitem [ref=e128]:
+              - link "Twitter" [ref=e129] [cursor=pointer]:
+                - /url: https://twitter.com/jalapenomadness
+                - img [ref=e130]
+                - generic [ref=e132]: Twitter
+            - listitem [ref=e133]:
+              - link "YouTube" [ref=e134] [cursor=pointer]:
+                - /url: https://www.youtube.com/ChiliPepperMadness
+                - img [ref=e135]
+                - generic [ref=e137]: YouTube
+        - generic [ref=e139]:
+          - paragraph [ref=e142]:
+            - link "↑ back to top" [ref=e143] [cursor=pointer]:
+              - /url: "#"
+          - paragraph [ref=e146]:
+            - link "About" [ref=e147] [cursor=pointer]:
+              - /url: https://www.chilipeppermadness.com/general-content/welcome-to-chili-pepper-madness/
+            - text: "|"
+            - link "Contact" [ref=e148] [cursor=pointer]:
+              - /url: https://www.chilipeppermadness.com/general-content/contact-chili-pepper-madness/
+            - text: "|"
+            - link "Travel-Food" [ref=e149] [cursor=pointer]:
+              - /url: https://www.chilipeppermadness.com/travel/
+            - text: "|"
+            - link "Ingredients" [ref=e150] [cursor=pointer]:
+              - /url: https://www.chilipeppermadness.com/ingredients/
+            - text: "|"
+            - link "Stories" [ref=e151] [cursor=pointer]:
+              - /url: https://www.chilipeppermadness.com/web-stories/
+            - text: "|"
+            - link "Privacy" [ref=e152] [cursor=pointer]:
+              - /url: https://www.chilipeppermadness.com/general-content/privacy-policy/
+            - text: "|"
+            - link "Disclaimer" [ref=e153] [cursor=pointer]:
+              - /url: https://www.chilipeppermadness.com/general-content/nutritional-information-disclaimer/
+            - text: "| © 2026 Chili Pepper Madness"
+        - paragraph [ref=e154]: EXCLUSIVE MEMBER OF MEDIAVINE FOOD

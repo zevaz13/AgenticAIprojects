@@ -1,0 +1,144 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Explore" [ref=e6] [cursor=pointer]:
+          - emphasis [ref=e8]: menu
+          - emphasis [ref=e9]: search
+        - link:
+          - /url: /
+        - text: close search
+      - link "Home":
+        - /url: /
+        - img "Encyclopedia Britannica" [ref=e10] [cursor=pointer]
+      - text: close search
+      - generic [ref=e11]:
+        - link "SUBSCRIBE" [ref=e14] [cursor=pointer]:
+          - /url: https://premium.britannica.com/premium-membership/?utm_source=premium&utm_medium=global-nav-mobile&utm_campaign=blue-evergreen
+        - button "account_circle keyboard_arrow_down" [ref=e15] [cursor=pointer]:
+          - emphasis [ref=e16]: account_circle
+          - emphasis [ref=e17]: keyboard_arrow_down
+          - text: keyboard_arrow_up
+  - generic [ref=e20]:
+    - generic [ref=e22]:
+      - link "Ask the Chatbot" [ref=e23] [cursor=pointer]:
+        - /url: /chatbot
+        - img [ref=e24]
+        - text: Ask the Chatbot
+      - link "Games & Quizzes" [ref=e26] [cursor=pointer]:
+        - /url: /quiz/browse
+      - link "History & Society" [ref=e27] [cursor=pointer]:
+        - /url: /History-Society
+      - link "Science & Tech" [ref=e28] [cursor=pointer]:
+        - /url: /Science-Tech
+      - link "Biographies" [ref=e29] [cursor=pointer]:
+        - /url: /Biographies
+      - link "Animals & Nature" [ref=e30] [cursor=pointer]:
+        - /url: /Animals-Nature
+      - link "Geography & Travel" [ref=e31] [cursor=pointer]:
+        - /url: /Geography-Travel
+      - link "Arts & Culture" [ref=e32] [cursor=pointer]:
+        - /url: /Arts-Culture
+      - link "ProCon" [ref=e33] [cursor=pointer]:
+        - /url: /procon
+      - link "Money" [ref=e34] [cursor=pointer]:
+        - /url: /money
+      - link "Videos" [ref=e35] [cursor=pointer]:
+        - /url: /videos
+    - button "Previous" [disabled]:
+      - generic: keyboard_arrow_left
+    - button "Next" [ref=e36] [cursor=pointer]:
+      - generic [ref=e37]: keyboard_arrow_right
+  - main [ref=e38]:
+    - generic [ref=e41]:
+      - heading "Page Not Found" [level=3] [ref=e43]
+      - generic [ref=e44]:
+        - heading "We're sorry! This content is not available. Please visit the Britannica homepage or use the search box below." [level=4] [ref=e45]:
+          - text: We're sorry! This content is not available. Please visit the
+          - link "Britannica homepage" [ref=e46] [cursor=pointer]:
+            - /url: /
+          - text: or use the search box below.
+        - generic [ref=e49]:
+          - generic [ref=e50]: Search Britannica
+          - textbox "Search Britannica" [active] [ref=e51]:
+            - /placeholder: Search Britannica...
+          - text: close
+          - button "Click here to search search" [disabled]:
+            - generic: Click here to search
+            - emphasis: search
+      - generic [ref=e53]:
+        - generic [ref=e55]:
+          - link "Night moths fly toward the light of a vintage lamp against a dark background." [ref=e57] [cursor=pointer]:
+            - /url: https://www.britannica.com/science/Why-Are-Bugs-Attracted-to-Light
+            - img "Night moths fly toward the light of a vintage lamp against a dark background." [ref=e59]
+          - link "Why Are Bugs Attracted to Light?" [ref=e61] [cursor=pointer]:
+            - /url: https://www.britannica.com/science/Why-Are-Bugs-Attracted-to-Light
+        - generic [ref=e63]:
+          - link "Official Portrait of the 22nd Chairman of the Joint Chiefs of Staff General Dan Caine, April 11, 2025." [ref=e65] [cursor=pointer]:
+            - /url: /biography/John-Daniel-Caine
+            - img "Official Portrait of the 22nd Chairman of the Joint Chiefs of Staff General Dan Caine, April 11, 2025." [ref=e67]
+          - link "John Daniel Caine" [ref=e69] [cursor=pointer]:
+            - /url: /biography/John-Daniel-Caine
+        - generic [ref=e71]:
+          - link "Joe 'King' Oliver's Creole Jazz Band, Louis Armstrong (1900-1971), kneeling in foreground with slide trumpet; King Oliver (background), coronet; Baby Dodds, drums; Honore Dutrey, trombone; Bill Johnson, banjo; Johnny Dodds, clarinet and Lil Hardin on piano, Chicago, Illinois, USA, 1923." [ref=e73] [cursor=pointer]:
+            - /url: /art/Whats-the-Difference-Between-Blues-and-Jazz
+            - img "Joe 'King' Oliver's Creole Jazz Band, Louis Armstrong (1900-1971), kneeling in foreground with slide trumpet; King Oliver (background), coronet; Baby Dodds, drums; Honore Dutrey, trombone; Bill Johnson, banjo; Johnny Dodds, clarinet and Lil Hardin on piano, Chicago, Illinois, USA, 1923." [ref=e75]
+          - link "What’s the Difference Between Blues and Jazz?" [ref=e77] [cursor=pointer]:
+            - /url: /art/Whats-the-Difference-Between-Blues-and-Jazz
+  - contentinfo [ref=e78]:
+    - generic [ref=e79]:
+      - generic [ref=e81]:
+        - generic [ref=e82]:
+          - strong [ref=e83]: Today in History
+          - text: "- Discover the events that shaped the world in a daily newsletter, straight from our editors."
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - generic [ref=e89]: Enter your email
+              - textbox "Enter your email" [ref=e90]
+            - button "SIGN UP" [ref=e92] [cursor=pointer]
+          - generic [ref=e93]:
+            - text: By clicking "Sign Up", you consent to the Britannica
+            - link "Privacy Notice" [ref=e94] [cursor=pointer]:
+              - /url: https://corporate.britannica.com/privacy-policy
+            - text: and
+            - link "Terms of Use" [ref=e95] [cursor=pointer]:
+              - /url: https://corporate.britannica.com/termsofuse.html?abExternalOpen=true&abExternalOpen=true
+            - text: .
+      - generic [ref=e96]:
+        - generic [ref=e97]: Stay Connected
+        - link "Share on Facebook" [ref=e98] [cursor=pointer]:
+          - /url: https://www.facebook.com/BRITANNICA/
+        - link "Share on X" [ref=e99] [cursor=pointer]:
+          - /url: https://x.com/britannica
+        - link "Share on Youtube" [ref=e100] [cursor=pointer]:
+          - /url: https://www.youtube.com/c/encyclopaediabritannica
+        - link "Share on Instagram" [ref=e101] [cursor=pointer]:
+          - /url: https://www.instagram.com/britannica/
+        - link "Share on Pinterest" [ref=e102] [cursor=pointer]:
+          - /url: https://www.pinterest.com/britannica/
+          - img [ref=e103]
+      - generic [ref=e105]:
+        - list [ref=e106]:
+          - listitem [ref=e107]:
+            - link "About Us & Legal Info" [ref=e108] [cursor=pointer]:
+              - /url: https://corporate.britannica.com
+          - listitem [ref=e109]:
+            - link "Advertising" [ref=e110] [cursor=pointer]:
+              - /url: https://corporate.britannica.com/advertise-with-us
+          - listitem [ref=e111]:
+            - link "Contact Us" [ref=e112] [cursor=pointer]:
+              - /url: https://corporate.britannica.com/contact/
+          - listitem [ref=e113]:
+            - link "Privacy Policy" [ref=e114] [cursor=pointer]:
+              - /url: https://corporate.britannica.com/privacy-policy
+          - listitem [ref=e115]:
+            - link "Terms of Use" [ref=e116] [cursor=pointer]:
+              - /url: https://corporate.britannica.com/termsofuse.html
+          - listitem [ref=e117]:
+            - link "Equal Opportunity" [ref=e118] [cursor=pointer]:
+              - /url: https://corporate.britannica.com/equalemployment
+          - listitem [ref=e119]:
+            - link "Do not sell my info" [ref=e120] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=e121]: ©2026 Encyclopædia Britannica, Inc.

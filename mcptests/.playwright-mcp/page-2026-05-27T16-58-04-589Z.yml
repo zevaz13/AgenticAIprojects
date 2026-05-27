@@ -1,0 +1,196 @@
+- generic [active] [ref=e1]:
+  - img:
+    - generic:
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+      - generic:
+        - img
+  - banner [ref=e2]:
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#main"
+      - generic [ref=e4]: Skip to content
+    - generic [ref=e5]:
+      - button "Main menu for EatingWell" [ref=e7] [cursor=pointer]:
+        - img [ref=e9]
+      - link "Visit EatingWell's homepage" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e13]: EatingWell
+        - img [ref=e14]
+      - list [ref=e17]:
+        - listitem [ref=e18]:
+          - link "Subscribe" [ref=e19] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e20]:
+          - link "Go to MyRecipes" [ref=e21] [cursor=pointer]:
+            - /url: https://www.myrecipes.com/
+            - img [ref=e22]
+  - main [ref=e24]:
+    - generic [ref=e25]:
+      - img [ref=e26]
+      - heading "Oh Snap! Peas Be Patient" [level=2] [ref=e28]
+      - paragraph [ref=e29]: The page you're looking for is unavailable. You might find what you're looking for by using our menu or search options.
+  - contentinfo [ref=e30]:
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - link "Visit EatingWell's homepage" [ref=e34] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e35]: EatingWell
+          - img [ref=e36]
+        - button "Newsletters" [ref=e39] [cursor=pointer]:
+          - generic [ref=e40]: Newsletters
+        - generic [ref=e42]:
+          - heading "Follow Us" [level=2] [ref=e43]
+          - list [ref=e44]:
+            - listitem [ref=e45]:
+              - link "Visit EatingWell's Instagram" [ref=e46] [cursor=pointer]:
+                - /url: https://www.instagram.com/eatingwell/
+                - img [ref=e47]
+            - listitem [ref=e49]:
+              - link "Visit EatingWell's TikTok" [ref=e50] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@eatingwell
+                - img [ref=e51]
+            - listitem [ref=e53]:
+              - link "Visit EatingWell's Facebook" [ref=e54] [cursor=pointer]:
+                - /url: https://www.facebook.com/EatingWell/
+                - img [ref=e55]
+            - listitem [ref=e57]:
+              - link "Visit EatingWell's YouTube" [ref=e58] [cursor=pointer]:
+                - /url: https://www.youtube.com/@eatingwell
+                - img [ref=e59]
+            - listitem [ref=e61]:
+              - link "Visit EatingWell's Pinterest" [ref=e62] [cursor=pointer]:
+                - /url: https://www.pinterest.com/eatingwell/
+                - img [ref=e63]
+            - listitem [ref=e65]:
+              - link "Visit EatingWell's Flipboard" [ref=e66] [cursor=pointer]:
+                - /url: https://flipboard.com/@EatingWell
+                - img [ref=e67]
+      - generic [ref=e69]:
+        - navigation "Footer" [ref=e70]:
+          - list [ref=e71]:
+            - listitem [ref=e72]:
+              - link "Healthy Recipes" [ref=e73] [cursor=pointer]:
+                - /url: https://www.eatingwell.com/recipes/
+            - listitem [ref=e74]:
+              - link "Special Diets" [ref=e75] [cursor=pointer]:
+                - /url: https://www.eatingwell.com/category/4243/special-diets/
+            - listitem [ref=e76]:
+              - link "Diabetes" [ref=e77] [cursor=pointer]:
+                - /url: https://www.eatingwell.com/category/4248/diabetes-diet-center/
+            - listitem [ref=e78]:
+              - link "Meal Plans" [ref=e79] [cursor=pointer]:
+                - /url: https://www.eatingwell.com/category/4286/meal-plans/
+            - listitem [ref=e80]:
+              - link "News" [ref=e81] [cursor=pointer]:
+                - /url: https://www.eatingwell.com/category/4328/news/
+            - listitem [ref=e82]:
+              - link "Healthy Eating" [ref=e83] [cursor=pointer]:
+                - /url: https://www.eatingwell.com/healthy-eating-7187156
+            - listitem [ref=e84]:
+              - link "Healthy Lifestyle" [ref=e85] [cursor=pointer]:
+                - /url: https://www.eatingwell.com/category/7886691/healthy-lifestyle/
+            - listitem [ref=e86]:
+              - link "Healthy Cooking" [ref=e87] [cursor=pointer]:
+                - /url: https://www.eatingwell.com/category/4309/healthy-cooking-how-tos/
+        - list [ref=e88]:
+          - listitem [ref=e89]:
+            - link "About Us" [ref=e90] [cursor=pointer]:
+              - /url: https://www.eatingwell.com/about-us-6743412
+          - listitem [ref=e91]:
+            - link "Nutrition Guidelines" [ref=e92] [cursor=pointer]:
+              - /url: https://www.eatingwell.com/our-food-and-nutrition-philosophy-6746110
+          - listitem [ref=e93]:
+            - link "Privacy Policy" [ref=e94] [cursor=pointer]:
+              - /url: https://www.people.inc/brands-privacy
+          - listitem [ref=e95]:
+            - link "Product Reviews" [ref=e96] [cursor=pointer]:
+              - /url: https://www.eatingwell.com/about-us-6743412#toc-product-reviews
+          - listitem [ref=e97]:
+            - link "Advertise" [ref=e98] [cursor=pointer]:
+              - /url: https://www.people.inc/brands/food-drink/eating-well
+          - listitem [ref=e99]:
+            - link "Terms of Service" [ref=e100] [cursor=pointer]:
+              - /url: https://www.people.inc/brands-termsofservice
+          - listitem [ref=e101]:
+            - link "Careers" [ref=e102] [cursor=pointer]:
+              - /url: https://www.people.inc/careers
+          - listitem [ref=e103]:
+            - link "Contact" [ref=e104] [cursor=pointer]:
+              - /url: https://www.people.inc/contact
+          - listitem [ref=e105]:
+            - link "Manage Your Magazine Subscription" [ref=e106] [cursor=pointer]:
+              - /url: https://w1.buysub.com/pubs/MR/ETQ/Login_No_API.jsp?cds_page_id=103259&cds_mag_code=ETQ&id=1726505237396&lsid=42601147173055098&vid=1
+          - listitem [ref=e107]:
+            - link "Magazine Subscription Help" [ref=e108] [cursor=pointer]:
+              - /url: https://www.magazines.com/customer-care
+          - listitem [ref=e109]:
+            - button "Your Privacy Choices Manage Your Privacy Choices" [ref=e110] [cursor=pointer]:
+              - text: Your Privacy Choices
+              - img "Manage Your Privacy Choices" [ref=e112]
+    - generic [ref=e116]:
+      - img [ref=e117]
+      - generic [ref=e120]:
+        - text: EatingWell is part of the
+        - link "People Inc." [ref=e121] [cursor=pointer]:
+          - /url: https://www.people.inc
+        - text: publishing family.

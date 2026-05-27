@@ -1,0 +1,268 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Gramophone" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Gramophone" [ref=e5]
+      - navigation "Search" [ref=e7]:
+        - button "Search" [ref=e8] [cursor=pointer]:
+          - generic [ref=e9]: Search
+          - img [ref=e10]
+      - button "MENU" [ref=e13] [cursor=pointer]:
+        - img [ref=e15]
+        - generic [ref=e17]: MENU
+  - main [ref=e18]:
+    - generic [ref=e19]:
+      - generic [ref=e22]:
+        - generic [ref=e26]:
+          - heading "Sorry, we were unable to find that page" [level=2] [ref=e27]
+          - paragraph [ref=e28]: Please return to the homepage or search for other content.
+        - generic [ref=e30]:
+          - link "Home" [ref=e31] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e32]: Home
+            - img [ref=e33]
+          - link "Reviews Search" [ref=e35] [cursor=pointer]:
+            - /url: /review-search/
+            - generic [ref=e36]: Reviews Search
+            - img [ref=e37]
+          - link "Articles Search" [ref=e39] [cursor=pointer]:
+            - /url: /search/
+            - generic [ref=e40]: Articles Search
+            - img [ref=e41]
+      - generic [ref=e47]:
+        - heading "Latest reviews" [level=2] [ref=e51]
+        - region "Latest Reviews" [ref=e55]:
+          - generic [ref=e56]:
+            - group "1 / 5" [ref=e57]:
+              - link "DE3624. WAGNER Der Ring des Nibelungen (Luisi)" [ref=e58] [cursor=pointer]:
+                - /url: https://www.gramophone.co.uk/reviews/review/wagner-der-ring-des-nibelungen-luisi
+                - img "DE3624. WAGNER Der Ring des Nibelungen (Luisi)" [ref=e60]
+              - generic [ref=e61]:
+                - link "WAGNER Der Ring des Nibelungen (Luisi)" [ref=e62] [cursor=pointer]:
+                  - /url: https://www.gramophone.co.uk/review/wagner-der-ring-des-nibelungen-luisi
+                  - heading "WAGNER Der Ring des Nibelungen (Luisi)" [level=4] [ref=e63]
+                - paragraph [ref=e64]:
+                  - text: Reviewer
+                  - link "David Patrick Stearns" [ref=e65] [cursor=pointer]:
+                    - /url: https://www.gramophone.co.uk/reviews/reviewers/David-Patrick-Stearns/11bca90c-46af-49a2-bc02-2daf83cac28d
+                  - text: in
+                  - link "Opera" [ref=e66] [cursor=pointer]:
+                    - /url: https://www.gramophone.co.uk/reviews/genres/Opera/b61961bd-97eb-48aa-bc9a-a515c8cf298d
+            - group "2 / 5" [ref=e67]:
+              - link "OA1395D. OFFENBACH Tales of Hoffmann (Manacorda)" [ref=e68] [cursor=pointer]:
+                - /url: https://www.gramophone.co.uk/reviews/review/offenbach-tales-of-hoffmann-manacorda
+                - img "OA1395D. OFFENBACH Tales of Hoffmann (Manacorda)" [ref=e70]
+              - generic [ref=e71]:
+                - link "OFFENBACH Tales of Hoffmann (Manacorda)" [ref=e72] [cursor=pointer]:
+                  - /url: https://www.gramophone.co.uk/review/offenbach-tales-of-hoffmann-manacorda
+                  - heading "OFFENBACH Tales of Hoffmann (Manacorda)" [level=4] [ref=e73]
+                - paragraph [ref=e74]:
+                  - text: Reviewer
+                  - link "Flora Willson" [ref=e75] [cursor=pointer]:
+                    - /url: https://www.gramophone.co.uk/reviews/reviewers/Flora-Willson/361ce032-67db-49f5-a032-76c7a58dce98
+                  - text: in
+                  - link "Opera" [ref=e76] [cursor=pointer]:
+                    - /url: https://www.gramophone.co.uk/reviews/genres/Opera/b61961bd-97eb-48aa-bc9a-a515c8cf298d
+            - group "3 / 5" [ref=e77]:
+              - link "PTC5187 424. HARTMANN Esther (Karabits)" [ref=e78] [cursor=pointer]:
+                - /url: https://www.gramophone.co.uk/reviews/review/hartmann-esther-karabits
+                - img "PTC5187 424. HARTMANN Esther (Karabits)" [ref=e80]
+              - generic [ref=e81]:
+                - link "HARTMANN Esther (Karabits)" [ref=e82] [cursor=pointer]:
+                  - /url: https://www.gramophone.co.uk/review/hartmann-esther-karabits
+                  - heading "HARTMANN Esther (Karabits)" [level=4] [ref=e83]
+                - paragraph [ref=e84]:
+                  - text: Reviewer
+                  - link "David Gutman" [ref=e85] [cursor=pointer]:
+                    - /url: https://www.gramophone.co.uk/reviews/reviewers/David-Gutman/76546f51-a9e1-4f76-9f0c-220b4bf0627e
+                  - text: in
+                  - link "Opera" [ref=e86] [cursor=pointer]:
+                    - /url: https://www.gramophone.co.uk/reviews/genres/Opera/b61961bd-97eb-48aa-bc9a-a515c8cf298d
+            - group "4 / 5" [ref=e87]:
+              - link "2685 43024-9. La Torre del Oro" [ref=e88] [cursor=pointer]:
+                - /url: https://www.gramophone.co.uk/reviews/review/la-torre-del-oro
+                - img "2685 43024-9. La Torre del Oro" [ref=e90]
+              - generic [ref=e91]:
+                - link "La Torre del Oro" [ref=e92] [cursor=pointer]:
+                  - /url: https://www.gramophone.co.uk/review/la-torre-del-oro
+                  - heading "La Torre del Oro" [level=4] [ref=e93]
+                - paragraph [ref=e94]:
+                  - text: Reviewer
+                  - link "Edward Breen" [ref=e95] [cursor=pointer]:
+                    - /url: https://www.gramophone.co.uk/reviews/reviewers/Edward-Breen/3f933529-4183-42ef-8c6a-9fcb6f95bc92
+                  - text: in
+                  - link "Vocal" [ref=e96] [cursor=pointer]:
+                    - /url: https://www.gramophone.co.uk/reviews/genres/Vocal/7ad70d7f-fbda-4a23-b8d8-f59c230a3158
+            - group "5 / 5" [ref=e97]:
+              - 'link "SOMMCD0721. Tomorrow is Today: Songs of Love, Beauty and the Passing of Time" [ref=e98] [cursor=pointer]':
+                - /url: https://www.gramophone.co.uk/reviews/review/tomorrow-is-today-songs-of-love-beauty-and-the-passing-of-time
+                - 'img "SOMMCD0721. Tomorrow is Today: Songs of Love, Beauty and the Passing of Time" [ref=e100]'
+              - generic [ref=e101]:
+                - 'link "Tomorrow is Today: Songs of Love, Beauty and the Passing of Time" [ref=e102] [cursor=pointer]':
+                  - /url: https://www.gramophone.co.uk/review/tomorrow-is-today-songs-of-love-beauty-and-the-passing-of-time
+                  - 'heading "Tomorrow is Today: Songs of Love, Beauty and the Passing of Time" [level=4] [ref=e103]'
+                - paragraph [ref=e104]:
+                  - text: Reviewer
+                  - link "Alexandra Coghlan" [ref=e105] [cursor=pointer]:
+                    - /url: https://www.gramophone.co.uk/reviews/reviewers/Alexandra-Coghlan/0df3ec77-95a2-44bd-a401-a1c76a69f378
+                  - text: in
+                  - link "Vocal" [ref=e106] [cursor=pointer]:
+                    - /url: https://www.gramophone.co.uk/reviews/genres/Vocal/7ad70d7f-fbda-4a23-b8d8-f59c230a3158
+          - group "Slider Navigation" [ref=e107]:
+            - button "Previous slide" [disabled] [ref=e108]:
+              - img [ref=e109]
+            - button "Next slide" [ref=e111] [cursor=pointer]:
+              - img [ref=e112]
+  - contentinfo [ref=e114]:
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - link "Gramophone" [ref=e119] [cursor=pointer]:
+            - /url: /
+            - img "Gramophone" [ref=e120]
+          - paragraph [ref=e121]: The world's best classical music reviews
+          - link "About Gramophone" [ref=e122] [cursor=pointer]:
+            - /url: /pages/about-us/
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - heading "Reviews" [level=4] [ref=e126]
+            - list [ref=e127]:
+              - listitem [ref=e128]:
+                - link "Reviews Home" [ref=e129] [cursor=pointer]:
+                  - /url: /reviews
+              - listitem [ref=e130]:
+                - link "Recording Reviews" [ref=e131] [cursor=pointer]:
+                  - /url: /reviews/all
+              - listitem [ref=e132]:
+                - link "Book Reviews" [ref=e133] [cursor=pointer]:
+                  - /url: /content/category/section/book-reviews
+              - listitem [ref=e134]:
+                - link "Hi-Fi Reviews" [ref=e135] [cursor=pointer]:
+                  - /url: /content/category/section/hi-fi
+              - listitem [ref=e136]:
+                - link "Reissues & Archive" [ref=e137] [cursor=pointer]:
+                  - /url: /content/category/section/album-reviews
+          - generic [ref=e138]:
+            - heading "Explore" [level=4] [ref=e139]
+            - list [ref=e140]:
+              - listitem [ref=e141]:
+                - link "News" [ref=e142] [cursor=pointer]:
+                  - /url: /content/news
+              - listitem [ref=e143]:
+                - link "Features" [ref=e144] [cursor=pointer]:
+                  - /url: /content/features
+              - listitem [ref=e145]:
+                - link "Podcasts" [ref=e146] [cursor=pointer]:
+                  - /url: /content/podcasts
+              - listitem [ref=e147]:
+                - link "Blogs" [ref=e148] [cursor=pointer]:
+                  - /url: /content/blogs
+              - listitem [ref=e149]:
+                - link "Composers" [ref=e150] [cursor=pointer]:
+                  - /url: /composers/
+              - listitem [ref=e151]:
+                - link "Frequently Asked Questions" [ref=e152] [cursor=pointer]:
+                  - /url: /faqs
+          - generic [ref=e153]:
+            - heading "Access" [level=4] [ref=e154]
+            - list [ref=e155]:
+              - listitem [ref=e156]:
+                - link "Register" [ref=e157] [cursor=pointer]:
+                  - /url: /register
+                  - text: Register
+                  - img [ref=e158]
+              - listitem [ref=e160]:
+                - link "Subscribe" [ref=e161] [cursor=pointer]:
+                  - /url: https://www.magsubscriptions.com/music-gramophone
+                  - text: Subscribe
+                  - img [ref=e162]
+              - listitem [ref=e164]:
+                - link "Newsletters" [ref=e165] [cursor=pointer]:
+                  - /url: https://auth.markallengroup.com/forms?returnurl=%2fconnect%2fforms%3fclient_id%3dGramophone%26redirect_uri%3dhttps%3a%2f%2fwww.gramophone.co.uk%2f%26acr_values%3dtheme%3aGramophone
+                  - text: Newsletters
+                  - img [ref=e166]
+              - listitem [ref=e168]:
+                - link "Digital Magazine" [ref=e169] [cursor=pointer]:
+                  - /url: https://login.exacteditions.com/login.do
+                  - text: Digital Magazine
+                  - img [ref=e170]
+          - generic [ref=e172]:
+            - heading "Get in touch" [level=4] [ref=e173]
+            - list [ref=e174]:
+              - listitem [ref=e175]:
+                - link "Contact Us" [ref=e176] [cursor=pointer]:
+                  - /url: /pages/contact-us/
+              - listitem [ref=e177]:
+                - link "Advertise With Us" [ref=e178] [cursor=pointer]:
+                  - /url: /pages/advertise/#
+              - listitem [ref=e179]:
+                - link "Reuse Permissions" [ref=e180] [cursor=pointer]:
+                  - /url: https://www.plsclear.com/pages/ClearWizard.aspx?provider=Mark%20Allen%20Group&id=0017-310X#
+                  - text: Reuse Permissions
+                  - img [ref=e181]
+      - generic [ref=e183]:
+        - generic [ref=e184]:
+          - generic [ref=e185]: Go deeper into music with…
+          - generic [ref=e186]:
+            - link "choir-and-organ" [ref=e187] [cursor=pointer]:
+              - /url: https://www.choirandorgan.com/
+              - img "choir-and-organ" [ref=e188]
+            - link "international-piano" [ref=e189] [cursor=pointer]:
+              - /url: https://www.international-piano.com/
+              - img "international-piano" [ref=e190]
+            - link "opera-now" [ref=e191] [cursor=pointer]:
+              - /url: https://www.opera-now.com/
+              - img "opera-now" [ref=e192]
+        - generic [ref=e193]:
+          - generic [ref=e194]: Follow Gramophone
+          - generic [ref=e195]:
+            - link "Follow us on Facebook" [ref=e196] [cursor=pointer]:
+              - /url: https://www.facebook.com/GramophoneMagazine/
+              - img [ref=e198]
+            - link "Follow us on Twitter" [ref=e200] [cursor=pointer]:
+              - /url: https://twitter.com/gramophonemag
+              - img [ref=e202]
+            - link "Follow us on Instagram" [ref=e204] [cursor=pointer]:
+              - /url: https://www.instagram.com/gramophonemagazine/
+              - img [ref=e206]
+            - link "Follow us on YouTube" [ref=e208] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/GramophoneMagazine
+              - img [ref=e210]
+    - generic [ref=e213]:
+      - list [ref=e214]:
+        - listitem [ref=e215]:
+          - link "Privacy Policy" [ref=e216] [cursor=pointer]:
+            - /url: https://www.markallengroup.com/privacy-policy/
+            - generic [ref=e217]: Privacy Policy
+            - img [ref=e218]
+        - listitem [ref=e220]:
+          - link "Cookies Policy" [ref=e221] [cursor=pointer]:
+            - /url: https://www.markallengroup.com/cookie-policy
+            - generic [ref=e222]: Cookies Policy
+            - img [ref=e223]
+        - listitem [ref=e225]:
+          - link "Terms & Conditions" [ref=e226] [cursor=pointer]:
+            - /url: https://www.markallengroup.com/terms-and-conditions
+            - generic [ref=e227]: Terms & Conditions
+            - img [ref=e228]
+        - listitem [ref=e230]:
+          - button "Cookie settings" [ref=e231]:
+            - generic [ref=e232]: Cookie Settings
+            - img [ref=e233]
+      - generic [ref=e234]:
+        - img "Mark Allen Group logo" [ref=e235]
+        - paragraph [ref=e236]: © Copyright 2026 Mark Allen Group. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+  - dialog "Cookie consent dialog" [ref=e237]:
+    - button "Close" [ref=e240] [cursor=pointer]: ×
+    - generic [ref=e241]: This website uses cookies
+    - generic [ref=e242]:
+      - text: This website uses cookies to improve user experience. Choose which cookies you allow us to use. Strictly Necessary cookies are on by default. For more information, please review our
+      - link "Cookie Policy., opens a new window" [ref=e243] [cursor=pointer]:
+        - /url: https://www.markallengroup.com/cookie-policy
+        - text: Cookie Policy.
+    - generic [ref=e244]:
+      - button "Accept All" [ref=e245] [cursor=pointer]
+      - button "Decline All" [ref=e246] [cursor=pointer]
+    - button "Show details" [ref=e247]:
+      - generic [ref=e248] [cursor=pointer]: Show details

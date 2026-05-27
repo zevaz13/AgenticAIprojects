@@ -1,0 +1,165 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic:
+        - generic:
+          - button "Menu" [ref=e5] [cursor=pointer]:
+            - generic [ref=e6]: Menu
+          - link "Cooking Classy" [ref=e9] [cursor=pointer]:
+            - /url: https://www.cookingclassy.com
+            - img "Cooking Classy" [ref=e10]
+          - generic [ref=e14]:
+            - generic [ref=e15]:
+              - generic [ref=e16]: Search
+              - textbox "Search Search Search" [ref=e17]:
+                - /placeholder: Find a recipe
+            - button " Submit" [ref=e18] [cursor=pointer]:
+              - text: 
+              - generic [ref=e19]: Submit
+          - generic [ref=e20]:
+            - button "Close Menu" [ref=e21] [cursor=pointer]:
+              - generic [ref=e22]: Close Menu
+            - navigation [ref=e24]:
+              - list [ref=e25]:
+                - listitem [ref=e26]:
+                  - link "Home" [ref=e27] [cursor=pointer]:
+                    - /url: https://www.cookingclassy.com/
+                - listitem [ref=e28]:
+                  - link "Recipes" [ref=e29] [cursor=pointer]:
+                    - /url: https://www.cookingclassy.com/recipes/
+                  - button "Toggle submenu " [ref=e30] [cursor=pointer]:
+                    - generic [ref=e31]: Toggle submenu
+                    - text: 
+                - listitem [ref=e32]:
+                  - link "Videos" [ref=e33] [cursor=pointer]:
+                    - /url: https://www.cookingclassy.com/recipes/videos/
+                - listitem [ref=e34]:
+                  - link "About" [ref=e35] [cursor=pointer]:
+                    - /url: https://www.cookingclassy.com/about/
+                - listitem [ref=e36]:
+                  - link "Subscribe" [ref=e37] [cursor=pointer]:
+                    - /url: https://www.cookingclassy.com/newsletter/
+                - listitem [ref=e38]:
+                  - link "Contact" [ref=e39] [cursor=pointer]:
+                    - /url: https://www.cookingclassy.com/contact/
+                - listitem [ref=e40]:
+                  - list [ref=e42]:
+                    - listitem [ref=e43]:
+                      - link " Facebook" [ref=e44] [cursor=pointer]:
+                        - /url: https://www.facebook.com/cookingclassy/
+                        - text: 
+                        - generic [ref=e45]: Facebook
+                    - listitem [ref=e46]:
+                      - link " Pinterest" [ref=e47] [cursor=pointer]:
+                        - /url: https://www.pinterest.com/cookingclassy/
+                        - text: 
+                        - generic [ref=e48]: Pinterest
+                    - listitem [ref=e49]:
+                      - link " Instagram" [ref=e50] [cursor=pointer]:
+                        - /url: https://www.instagram.com/cookingclassy/
+                        - text: 
+                        - generic [ref=e51]: Instagram
+                    - listitem [ref=e52]:
+                      - link " YouTube" [ref=e53] [cursor=pointer]:
+                        - /url: https://www.youtube.com/channel/UCJ3glW5a7QH0O-xNA1mvsIw
+                        - text: 
+                        - generic [ref=e54]: YouTube
+                - listitem [ref=e55]:
+                  - generic [ref=e57]:
+                    - generic [ref=e58]:
+                      - generic [ref=e59]: Search
+                      - textbox "Find a recipe" [ref=e60]
+                    - button " Submit" [ref=e61] [cursor=pointer]:
+                      - text: 
+                      - generic [ref=e62]: Submit
+  - generic [ref=e65]:
+    - main [ref=e66]:
+      - generic [ref=e68]:
+        - 'heading "404: Page Not Found" [level=1] [ref=e69]'
+        - generic [ref=e70]:
+          - paragraph [ref=e71]: Sorry, the page you were looking for could not be found.
+          - heading "Try searching for the information you’re looking for:" [level=2] [ref=e72]
+          - generic [ref=e75]:
+            - generic [ref=e76]:
+              - generic [ref=e77]: Search
+              - textbox "Find a recipe" [ref=e78]
+            - button " Submit" [ref=e79] [cursor=pointer]:
+              - text: 
+              - generic [ref=e80]: Submit
+          - heading "Did you follow a link to get here?" [level=2] [ref=e81]
+          - paragraph [ref=e82]:
+            - text: Please
+            - link "contact me" [ref=e83] [cursor=pointer]:
+              - /url: https://clients.cre8d-design.com/cookingclassy/contact/
+            - text: with the URL of the page the broken link is on so it can be fixed.
+          - heading "Did you type the URL?" [level=2] [ref=e84]
+          - paragraph [ref=e85]: You may have typed the address incorrectly. Please check to make sure you’ve got it exactly right.
+    - complementary [ref=e86]:
+      - generic [ref=e88]:
+        - heading "Welcome to Cooking Classy™" [level=2] [ref=e89]
+        - img "Jaclyn Bell" [ref=e91]
+        - paragraph [ref=e93]: Here you’ll find a collection of delicious recipes that your family will love, all tested and approved by me, Jaclyn, creator of this food blog. Cooking is my passion so please follow along and share what I create!
+      - generic [ref=e94]:
+        - heading "Trending Right Now" [level=2] [ref=e95]
+        - list [ref=e97]:
+          - listitem [ref=e98]:
+            - link "Layered trifle in a glass trifle dish. It includes cubes of angel food cake, blueberries, strawberries, raspberries and a cream cheese whipped cream topping. Berry Trifle" [ref=e100] [cursor=pointer]:
+              - /url: https://www.cookingclassy.com/berry-trifle/
+              - img "Layered trifle in a glass trifle dish. It includes cubes of angel food cake, blueberries, strawberries, raspberries and a cream cheese whipped cream topping." [ref=e102]
+              - generic [ref=e103]: Berry Trifle
+          - listitem [ref=e104]:
+            - 'link "The BEST Light Potato Salad {With How-To Video}" [ref=e106] [cursor=pointer]':
+              - /url: https://www.cookingclassy.com/classic-creamy-potato-salad/
+              - generic [ref=e108]: "The BEST Light Potato Salad {With How-To Video}"
+          - listitem [ref=e109]:
+            - link "Rainbow Fruit Salad Honey Lime Rainbow Fruit Salad" [ref=e111] [cursor=pointer]:
+              - /url: https://www.cookingclassy.com/honey-lime-rainbow-fruit-salad/
+              - img "Rainbow Fruit Salad" [ref=e113]
+              - generic [ref=e114]: Honey Lime Rainbow Fruit Salad
+          - listitem [ref=e115]:
+            - link "Italian pasta salad shown from a side angle on a large wooden bowl. Italian Pasta Salad" [ref=e117] [cursor=pointer]:
+              - /url: https://www.cookingclassy.com/italian-pasta-salad/
+              - img "Italian pasta salad shown from a side angle on a large wooden bowl." [ref=e119]
+              - generic [ref=e120]: Italian Pasta Salad
+  - complementary [ref=e121]:
+    - generic [ref=e123]:
+      - heading "16 Quick & Easy 30 Minute Recipes! (plus weekly recipe updates)" [level=2] [ref=e124]
+      - generic [ref=e126]:
+        - generic [ref=e127]: Your email
+        - textbox "Your email" [ref=e128]
+        - button "Sign Me Up" [ref=e129] [cursor=pointer]
+        - textbox [ref=e131]
+  - contentinfo [ref=e132]:
+    - generic [ref=e135]:
+      - list [ref=e138]:
+        - listitem [ref=e139]: © 2026 COOKING CLASSY™
+        - listitem [ref=e140]:
+          - link "Privacy" [ref=e141] [cursor=pointer]:
+            - /url: https://www.cookingclassy.com/privacy-policy/
+        - listitem [ref=e142]:
+          - link "Contact" [ref=e143] [cursor=pointer]:
+            - /url: https://www.cookingclassy.com/contact/
+        - listitem [ref=e144]:
+          - link "Design by cre8d" [ref=e145] [cursor=pointer]:
+            - /url: https://www.cre8d-design.com
+      - list [ref=e148]:
+        - listitem [ref=e149]:
+          - link " Facebook" [ref=e150] [cursor=pointer]:
+            - /url: https://www.facebook.com/cookingclassy/
+            - text: 
+            - generic [ref=e151]: Facebook
+        - listitem [ref=e152]:
+          - link " Pinterest" [ref=e153] [cursor=pointer]:
+            - /url: https://www.pinterest.com/cookingclassy/
+            - text: 
+            - generic [ref=e154]: Pinterest
+        - listitem [ref=e155]:
+          - link " Instagram" [ref=e156] [cursor=pointer]:
+            - /url: https://www.instagram.com/cookingclassy/
+            - text: 
+            - generic [ref=e157]: Instagram
+        - listitem [ref=e158]:
+          - link " YouTube" [ref=e159] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCJ3glW5a7QH0O-xNA1mvsIw
+            - text: 
+            - generic [ref=e160]: YouTube

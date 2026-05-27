@@ -1,0 +1,85 @@
+- generic [ref=e1]:
+  - generic [ref=e4]:
+    - generic [ref=e7]:
+      - generic: 
+      - generic [ref=e9]:
+        - button "" [ref=e14] [cursor=pointer]: 
+        - link [ref=e17] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e19]:
+          - button [ref=e22] [cursor=pointer]
+          - button [ref=e25] [cursor=pointer]
+    - paragraph [ref=e31]: Page not found
+    - generic [ref=e36]:
+      - link "Footer banner" [ref=e39] [cursor=pointer]:
+        - /url: https://www.ourmediashop.com/bbc-music-magazine-WMONEAS26?utm_source=classical-music.com&utm_medium=brandsite&utm_campaign=WMONEAS26_WMONEAS26&utm_content=display-banner&style=brand
+        - img "Footer banner" [ref=e40]
+      - generic [ref=e44]:
+        - link [ref=e47] [cursor=pointer]:
+          - /url: /
+        - list [ref=e52]:
+          - listitem [ref=e53]:
+            - button [ref=e55] [cursor=pointer]:
+              - link [ref=e56]:
+                - /url: https://www.facebook.com/classicalmagazine/
+                - img [ref=e57]
+          - listitem [ref=e58]:
+            - button [ref=e60] [cursor=pointer]:
+              - link [ref=e61]:
+                - /url: https://twitter.com/MusicMagazine
+                - img [ref=e62]
+          - listitem [ref=e63]:
+            - button [ref=e65] [cursor=pointer]:
+              - link [ref=e66]:
+                - /url: https://www.instagram.com/bbcmusicmag/
+                - img [ref=e67]
+          - listitem [ref=e68]:
+            - button [ref=e70] [cursor=pointer]:
+              - link [ref=e71]:
+                - /url: https://www.youtube.com/bbcmusicmagazine
+                - img [ref=e72]
+      - generic [ref=e74]:
+        - list [ref=e81]:
+          - listitem [ref=e82]:
+            - button "Privacy policy" [ref=e84] [cursor=pointer]:
+              - generic [ref=e85]: Privacy policy
+          - listitem [ref=e86]:
+            - button "Terms & Conditions" [ref=e88] [cursor=pointer]:
+              - generic [ref=e89]: Terms & Conditions
+          - listitem [ref=e90]:
+            - button "Cookies policy" [ref=e92] [cursor=pointer]:
+              - generic [ref=e93]: Cookies policy
+          - listitem [ref=e94]:
+            - button "Complaints" [ref=e96] [cursor=pointer]:
+              - generic [ref=e97]: Complaints
+          - listitem [ref=e98]:
+            - button "Contact us" [ref=e100] [cursor=pointer]:
+              - generic [ref=e101]: Contact us
+          - listitem [ref=e102]:
+            - button "Manage preferences" [ref=e104] [cursor=pointer]:
+              - generic [ref=e105]: Manage preferences
+        - generic [ref=e111]:
+          - generic [ref=e114]: This website is owned and published by Our Media Ltd. www.ourmedia.co.uk
+          - generic [ref=e117]: © Our Media 2026
+    - generic: 
+    - generic: 
+  - dialog "SP Consent Message" [ref=e118]:
+    - iframe [active] [ref=e119]:
+      - generic [ref=f117e4]:
+        - generic [ref=f117e6]:
+          - paragraph [ref=f117e7]: We value your privacy
+          - paragraph [ref=f117e8]:
+            - text: "We need your consent so that we and our trusted partners can store and access cookies, unique identifiers, personal data, and information on your browsing behaviour on this device. This only applies to Our Media. You can change your preferences at any time by clicking on ‘Manage Privacy Settings’ located at the bottom of any page. You don’t have to agree, but some personalised content and advertising may not work if you don’t. We and our partners use your data for the following purposes:"
+            - paragraph
+            - paragraph [ref=f117e9]
+            - paragraph [ref=f117e10]:
+              - emphasis [ref=f117e11]: Store and/or access information on a device
+            - paragraph [ref=f117e12]:
+              - emphasis [ref=f117e13]: Precise geolocation data, and identification through device scanning
+            - paragraph [ref=f117e14]:
+              - emphasis [ref=f117e15]: Personalised advertising and content, advertising and content measurement, audience research and services development.
+            - paragraph [ref=f117e16]
+            - paragraph [ref=f117e17]: To view our list of 105 partners and see how your data may be used, click or tap ‘More Options’ below. You can also review where our partners claim a legitimate interest to use your data and, if you wish, object to them using it.
+        - generic [ref=f117e18]:
+          - button "MORE OPTIONS" [ref=f117e20] [cursor=pointer]
+          - button "AGREE" [ref=f117e22] [cursor=pointer]

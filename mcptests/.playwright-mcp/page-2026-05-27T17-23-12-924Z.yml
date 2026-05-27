@@ -1,0 +1,104 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to Content" [ref=e3] [cursor=pointer]:
+      - /url: "#main-content"
+    - navigation [ref=e4]:
+      - generic [ref=e7]:
+        - button "Sidepanel Button" [active] [ref=e8]:
+          - img [ref=e9]
+        - link "Biography" [ref=e11] [cursor=pointer]:
+          - /url: /
+          - img "Logo" [ref=e13]
+        - link "Search" [ref=e14] [cursor=pointer]:
+          - /url: /search
+          - img "Search" [ref=e15]
+      - list [ref=e17]:
+        - listitem [ref=e18]:
+          - link "History & Culture" [ref=e20] [cursor=pointer]:
+            - /url: https://www.biography.com/history-culture/
+        - listitem [ref=e21]:
+          - link "Musicians" [ref=e23] [cursor=pointer]:
+            - /url: https://www.biography.com/musicians/
+        - listitem [ref=e24]:
+          - link "True Crime" [ref=e26] [cursor=pointer]:
+            - /url: https://www.biography.com/crime/
+        - listitem [ref=e27]:
+          - link "Athletes" [ref=e29] [cursor=pointer]:
+            - /url: https://www.biography.com/athletes/
+        - listitem [ref=e30]:
+          - link "Power & Politics" [ref=e32] [cursor=pointer]:
+            - /url: https://www.biography.com/political-figures/
+        - listitem [ref=e33]:
+          - link "Scholars & Educators" [ref=e35] [cursor=pointer]:
+            - /url: https://www.biography.com/scholars-educators/
+        - listitem [ref=e36]:
+          - link "Movies & TV" [ref=e38] [cursor=pointer]:
+            - /url: https://www.biography.com/movies-tv/
+        - listitem [ref=e39]:
+          - link "About" [ref=e41] [cursor=pointer]:
+            - /url: https://www.biography.com/about/a43602329/about-us/
+    - main [ref=e42]:
+      - generic [ref=e43]:
+        - heading "Oops! We don't have the page you're looking for." [level=2] [ref=e44]
+        - link "Homepage" [ref=e45] [cursor=pointer]:
+          - /url: /
+          - text: Check out our latest stories.
+    - contentinfo [ref=e46]:
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - link "Biography" [ref=e49] [cursor=pointer]:
+            - /url: /
+            - img "Logo" [ref=e50]
+          - generic [ref=e51]:
+            - link "x" [ref=e53] [cursor=pointer]:
+              - /url: https://x.com/biography
+              - img "x" [ref=e54]
+            - link "facebook" [ref=e56] [cursor=pointer]:
+              - /url: https://www.facebook.com/Biography
+              - img "facebook" [ref=e57]
+            - link "instagram" [ref=e59] [cursor=pointer]:
+              - /url: https://www.instagram.com/biography/
+              - img "instagram" [ref=e60]
+        - navigation "Footer" [ref=e61]:
+          - link "About Biography.com" [ref=e62] [cursor=pointer]:
+            - /url: /about/a43602329/about-us
+          - link "Newsletter" [ref=e63] [cursor=pointer]:
+            - /url: /email/biography-newsletter
+          - link "Contact Us" [ref=e64] [cursor=pointer]:
+            - /url: /about/a42731733/contact-us
+          - link "Other Hearst Subscriptions" [ref=e65] [cursor=pointer]:
+            - /url: http://subscribe.hearstmags.com/circulation/shared/index.html
+        - img "A Part of Hearst Digital Media" [ref=e66]
+        - paragraph [ref=e67]: A Part of Hearst Digital Media
+        - paragraph [ref=e68]: We may earn commission from links on this page, but we only recommend products we back.
+        - paragraph [ref=e69]: ©2026 Hearst Magazine Media, Inc. Site contains certain content that is owned A&E Television Networks, LLC. All Rights Reserved. Biography and associated logos are trademarks of A+E Networks®protected in the US and other countries around the globe.
+        - generic [ref=e70]:
+          - link "Privacy Notice" [ref=e71] [cursor=pointer]:
+            - /url: https://www.hearst.com/-/us-magazines-privacy-notice
+          - link "Terms of Use" [ref=e72] [cursor=pointer]:
+            - /url: https://www.hearst.com/-/us-magazines-terms-of-use
+          - link "CA Notice at Collection" [ref=e73] [cursor=pointer]:
+            - /url: https://www.hearst.com/-/us-magazines-privacy-notice#_ADDITIONAL_INFO
+          - link "DAA Industry Opt Out" [ref=e74] [cursor=pointer]:
+            - /url: https://www.hearst.com/-/us-magazines-privacy-notice#_OPT_OUTS
+          - link "Your CA Privacy Rights/Shine the Light" [ref=e75] [cursor=pointer]:
+            - /url: https://www.hearst.com/-/us-magazines-privacy-notice#_ADDITIONAL_INFO
+        - link "do-not-sell-link" [ref=e77] [cursor=pointer]:
+          - /url: javascript:Optanon.ToggleInfoDisplay();
+          - img "Opt-Out Icon" [ref=e78]
+          - text: "Your Privacy Choices: Opt Out of Sale/Targeted Ads"
+  - alert [ref=e79]
+  - 'dialog "Privacy Disclosure: Your privacy matters to us" [ref=e80]':
+    - button "Close Privacy Disclosure" [ref=e81] [cursor=pointer]:
+      - img [ref=e82]
+    - generic [ref=e84]:
+      - text: We use technologies that provide information about your interactions with this site to others for functionality, analytics, targeted advertising, and other purposes.
+      - link "Learn more in our Privacy Notice" [ref=e85] [cursor=pointer]:
+        - /url: https://www.hearst.com/-/us-magazines-privacy-notice
+      - text: . You agree that your use of this website and the Hearst Services is governed by the
+      - link "Terms of Use" [ref=e86] [cursor=pointer]:
+        - /url: https://www.hearst.com/-/us-magazines-terms-of-use
+      - text: (including
+      - link "the dispute resolution procedures" [ref=e87] [cursor=pointer]:
+        - /url: https://www.hearst.com/-/us-magazines-terms-of-use#_DISPUTE_RESOLUTION
+      - text: ).

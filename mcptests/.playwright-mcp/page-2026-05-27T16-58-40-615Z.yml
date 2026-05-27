@@ -1,0 +1,122 @@
+- generic [ref=e2]:
+  - link "Skip to content" [ref=e3] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e5]:
+    - paragraph [ref=e6]:
+      - link "Sign up for free weekly recipes! →" [ref=e7] [cursor=pointer]:
+        - /url: https://reciperunner.com/subscribe/
+    - list [ref=e8]:
+      - listitem [ref=e9]:
+        - link "Instagram" [ref=e10] [cursor=pointer]:
+          - /url: https://instagram.com/reciperunner/
+          - img [ref=e11]
+      - listitem [ref=e13]:
+        - link "Pinterest" [ref=e14] [cursor=pointer]:
+          - /url: https://www.pinterest.com/reciperunner/
+          - img [ref=e15]
+      - listitem [ref=e17]:
+        - link "Facebook" [ref=e18] [cursor=pointer]:
+          - /url: https://www.facebook.com/RecipeRunner/
+          - img [ref=e19]
+      - listitem [ref=e21]:
+        - link "Threads" [ref=e22] [cursor=pointer]:
+          - /url: https://www.threads.net/@reciperunner
+          - img [ref=e23]
+      - listitem [ref=e25]:
+        - link "X" [ref=e26] [cursor=pointer]:
+          - /url: https://x.com/RecipeRunner
+          - img [ref=e27]
+  - banner [ref=e29]:
+    - generic [ref=e30]:
+      - button "Menu" [ref=e31] [cursor=pointer]:
+        - img [ref=e32]
+      - link "Recipe Runner Home" [ref=e34] [cursor=pointer]:
+        - /url: https://reciperunner.com
+        - img [ref=e35]
+      - button "Search" [ref=e37] [cursor=pointer]:
+        - img [ref=e38]
+  - main [ref=e42]:
+    - generic [ref=e43]:
+      - heading "Nothing Found" [level=1] [ref=e44]
+      - paragraph [ref=e45]: It seems we can’t find what you’re looking for. Perhaps searching can help.
+      - search [ref=e46]:
+        - generic [ref=e47]: Search
+        - generic [ref=e48]:
+          - searchbox "Search" [ref=e49]
+          - button "Search" [ref=e50] [cursor=pointer]:
+            - img [ref=e51]
+  - generic [ref=e54]:
+    - paragraph [ref=e55]: As Seen In
+    - generic [ref=e56]:
+      - img "Better Homes & Gardens" [ref=e58]
+      - img "BuzzFeed" [ref=e60]
+      - img "Huffpost" [ref=e62]
+      - img "Kitchn" [ref=e64]
+      - img "Parade" [ref=e66]
+  - contentinfo [ref=e67]:
+    - generic [ref=e68]:
+      - link "Back to top" [ref=e69] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=e70]: Back to top
+        - img [ref=e71]
+      - generic [ref=e73]:
+        - link "Recipe Runner" [ref=e74] [cursor=pointer]:
+          - /url: https://reciperunner.com/
+          - generic [ref=e75]: Recipe Runner
+          - img [ref=e76]
+        - list [ref=e79]:
+          - listitem [ref=e80]:
+            - link "Recipes" [ref=e81] [cursor=pointer]:
+              - /url: https://reciperunner.com/recipe-index/
+          - listitem [ref=e82]:
+            - link "One Pan" [ref=e83] [cursor=pointer]:
+              - /url: https://reciperunner.com/category/recipes/skillet-one-pot-meals/
+          - listitem [ref=e84]:
+            - link "Bowls" [ref=e85] [cursor=pointer]:
+              - /url: https://reciperunner.com/category/recipes/dinners/bowls/
+          - listitem [ref=e86]:
+            - link "Salads" [ref=e87] [cursor=pointer]:
+              - /url: https://reciperunner.com/category/recipes/salads/
+          - listitem [ref=e88]:
+            - link "About" [ref=e89] [cursor=pointer]:
+              - /url: https://reciperunner.com/about/
+          - listitem [ref=e90]:
+            - link "Work With Me" [ref=e91] [cursor=pointer]:
+              - /url: https://reciperunner.com/work/
+          - listitem [ref=e92]:
+            - link "Contact" [ref=e93] [cursor=pointer]:
+              - /url: https://reciperunner.com/contact/
+  - generic [ref=e95]:
+    - list [ref=e96]:
+      - listitem [ref=e97]:
+        - link "Instagram" [ref=e98] [cursor=pointer]:
+          - /url: https://instagram.com/reciperunner/
+          - img [ref=e99]
+      - listitem [ref=e101]:
+        - link "Pinterest" [ref=e102] [cursor=pointer]:
+          - /url: https://www.pinterest.com/reciperunner/
+          - img [ref=e103]
+      - listitem [ref=e105]:
+        - link "Facebook" [ref=e106] [cursor=pointer]:
+          - /url: https://www.facebook.com/RecipeRunner/
+          - img [ref=e107]
+      - listitem [ref=e109]:
+        - link "Threads" [ref=e110] [cursor=pointer]:
+          - /url: https://www.threads.net/@reciperunner
+          - img [ref=e111]
+      - listitem [ref=e113]:
+        - link "X" [ref=e114] [cursor=pointer]:
+          - /url: https://x.com/RecipeRunner
+          - img [ref=e115]
+    - paragraph [ref=e117]:
+      - text: ©2026 Recipe Runner. All rights reserved.
+      - generic [ref=e118]:
+        - link "Privacy & Disclosure Policy" [ref=e119] [cursor=pointer]:
+          - /url: https://reciperunner.com/disclosure-privacy-policy/
+        - text: •
+        - link "Accessibility Statement" [ref=e120] [cursor=pointer]:
+          - /url: https://reciperunner.com/accessibility-statement/
+        - text: • Powered by
+        - link "CultivateWP" [ref=e121] [cursor=pointer]:
+          - /url: https://cultivatewp.com
+        - text: .

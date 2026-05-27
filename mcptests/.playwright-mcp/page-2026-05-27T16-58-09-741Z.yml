@@ -1,0 +1,181 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - generic "Open the menu" [ref=e6]:
+        - img "Menu" [ref=e7]:
+          - img [ref=e8]
+        - generic [ref=e10]: MENU
+      - link [ref=e12] [cursor=pointer]:
+        - /url: /
+        - figure [ref=e13]:
+          - img "Taste of Home Logo" [ref=e14]
+      - generic [ref=e15]:
+        - search [ref=e19]:
+          - generic [ref=e20]:
+            - textbox "Search" [ref=e21]
+            - button "Search" [ref=e22] [cursor=pointer]
+        - button "Open notifications feed" [ref=e23] [cursor=pointer]
+  - generic [ref=e25]:
+    - generic [ref=e26]:
+      - heading "Oh Dear, it looks like the page you were looking for is missing from our cookbook!" [level=3] [ref=e27]
+      - paragraph [ref=e29]: Don’t worry, we’ve got all the right ingredients to help you get what you’re craving to read.
+    - generic [ref=e30]:
+      - heading "Search Recipes & Home Cooking Tips" [level=3] [ref=e31]
+      - search [ref=e33]:
+        - generic [ref=e34]:
+          - textbox "Search" [ref=e35]
+          - button "Search" [ref=e36] [cursor=pointer]
+    - generic [ref=e37]:
+      - heading "Popular Recipes" [level=3] [ref=e38]
+      - list [ref=e40]:
+        - listitem [ref=e41]:
+          - link "Ultimate Chicken Soup" [ref=e42] [cursor=pointer]:
+            - /url: https://www.tasteofhome.com/recipes/the-ultimate-chicken-noodle-soup/
+        - listitem [ref=e43]:
+          - link "Basic Homemade Bread" [ref=e44] [cursor=pointer]:
+            - /url: https://www.tasteofhome.com/recipes/basic-homemade-bread/
+        - listitem [ref=e45]:
+          - link "Flavorful Chicken Fajitas" [ref=e46] [cursor=pointer]:
+            - /url: https://www.tasteofhome.com/recipes/flavorful-chicken-fajitas/
+        - listitem [ref=e47]:
+          - link "Slow Cooker Pot Roast" [ref=e48] [cursor=pointer]:
+            - /url: https://www.tasteofhome.com/recipes/slow-cooker-pot-roast/
+        - listitem [ref=e49]:
+          - link "Apple Pie" [ref=e50] [cursor=pointer]:
+            - /url: https://www.tasteofhome.com/recipes/apple-pie/
+    - generic [ref=e51]:
+      - heading "What’s Trending" [level=3] [ref=e52]
+      - list [ref=e54]:
+        - listitem [ref=e55]:
+          - link "Dump Dinners for your Slow Cooker" [ref=e56] [cursor=pointer]:
+            - /url: https://www.tasteofhome.com/collection/slow-cooker-dump-dinners/
+        - listitem [ref=e57]:
+          - link "Ways to Cook Boneless, Skinless Chicken Breasts" [ref=e58] [cursor=pointer]:
+            - /url: https://www.tasteofhome.com/collection/ways-to-cook-boneless-skinless-chicken-breasts/
+        - listitem [ref=e59]:
+          - link "Easy Dessert Recipes with 5 ingredients or less" [ref=e60] [cursor=pointer]:
+            - /url: https://www.tasteofhome.com/collection/easy-desserts-with-5-ingredients-or-less/
+        - listitem [ref=e61]:
+          - link "Restaurant Copycat Recipes" [ref=e62] [cursor=pointer]:
+            - /url: https://www.tasteofhome.com/collection/restaurant-copycat-recipes/
+        - listitem [ref=e63]:
+          - link "Top 10 Quick Dinners" [ref=e64] [cursor=pointer]:
+            - /url: https://www.tasteofhome.com/collection/top-10-quick-dinners/
+  - contentinfo [ref=e65]:
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e69]:
+          - list [ref=e70]:
+            - listitem [ref=e71]:
+              - link "Recipes" [ref=e72] [cursor=pointer]:
+                - /url: https://www.tasteofhome.com/recipes/
+            - listitem [ref=e73]:
+              - link "Contests" [ref=e74] [cursor=pointer]:
+                - /url: https://www.tasteofhome.com/contests/
+            - listitem [ref=e75]:
+              - link "News" [ref=e76] [cursor=pointer]:
+                - /url: https://www.tasteofhome.com/news/
+            - listitem [ref=e77]:
+              - link "Health & Wellness" [ref=e78] [cursor=pointer]:
+                - /url: https://www.tasteofhome.com/health-wellness/
+            - listitem [ref=e79]:
+              - link "Holidays & Events" [ref=e80] [cursor=pointer]:
+                - /url: https://www.tasteofhome.com/holidays-events/
+          - list [ref=e81]:
+            - listitem [ref=e82]:
+              - link "Home & Living" [ref=e83] [cursor=pointer]:
+                - /url: https://www.tasteofhome.com/home-living/
+            - listitem [ref=e84]:
+              - link "Stuff We Love" [ref=e85] [cursor=pointer]:
+                - /url: https://www.tasteofhome.com/stuff-we-love/
+            - listitem [ref=e86]:
+              - link "Test Kitchen" [ref=e87] [cursor=pointer]:
+                - /url: https://www.tasteofhome.com/test-kitchen/
+            - listitem [ref=e88]:
+              - link "Magazine" [ref=e89] [cursor=pointer]:
+                - /url: https://www.tasteofhome.com/article/subscribe-to-our-magazines/
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - paragraph [ref=e92]: Our Brands
+            - navigation "links to other brands" [ref=e93]:
+              - list [ref=e94]:
+                - listitem [ref=e95]:
+                  - link "Reader’s Digest" [ref=e96] [cursor=pointer]:
+                    - /url: https://www.rd.com/
+                - listitem [ref=e97]:
+                  - link "Family Handyman" [ref=e98] [cursor=pointer]:
+                    - /url: https://www.familyhandyman.com/
+                - listitem [ref=e99]:
+                  - link "Birds & Blooms" [ref=e100] [cursor=pointer]:
+                    - /url: https://www.birdsandblooms.com/
+                - listitem [ref=e101]:
+                  - link "The Healthy" [ref=e102] [cursor=pointer]:
+                    - /url: https://www.thehealthy.com/
+          - navigation "global links" [ref=e104]:
+            - list [ref=e105]:
+              - listitem [ref=e106]:
+                - link "About Us" [ref=e107] [cursor=pointer]:
+                  - /url: https://www.tasteofhome.com/about-taste-of-home/
+              - listitem [ref=e108]:
+                - link "Contests" [ref=e109] [cursor=pointer]:
+                  - /url: https://www.tasteofhome.com/contests/
+              - listitem [ref=e110]:
+                - link "RSS" [ref=e111] [cursor=pointer]:
+                  - /url: https://www.tasteofhome.com/feed/
+              - listitem [ref=e112]:
+                - link "Customer Care" [ref=e113] [cursor=pointer]:
+                  - /url: https://w1.buysub.com/pubs/RM/TOH/index_toh.jsp?cds_mag_code=TOH&cds_page_id=83141
+              - listitem [ref=e114]:
+                - link "Contact Us" [ref=e115] [cursor=pointer]:
+                  - /url: https://www.tasteofhome.com/help/contact-us/
+              - listitem [ref=e116]:
+                - link "Log In" [ref=e117] [cursor=pointer]:
+                  - /url: https://www.tasteofhome.com/my-account/
+              - listitem [ref=e118]:
+                - link "Help" [ref=e119] [cursor=pointer]:
+                  - /url: https://www.tasteofhome.com/help/
+              - listitem [ref=e120]:
+                - link "Press Room" [ref=e121] [cursor=pointer]:
+                  - /url: https://www.trustedmediabrands.com/our-brands/taste-of-home/
+              - listitem [ref=e122]:
+                - link "Advertise with Us" [ref=e123] [cursor=pointer]:
+                  - /url: https://www.trustedmediabrands.com/brands/taste-of-home/
+              - listitem [ref=e124]:
+                - link "Privacy Policy" [ref=e125] [cursor=pointer]:
+                  - /url: https://www.trustedmediabrands.com/privacy-policy/
+              - listitem [ref=e126]:
+                - link "Your CA Privacy Rights" [ref=e127] [cursor=pointer]:
+                  - /url: https://www.trustedmediabrands.com/ca-privacy-notice/
+              - listitem [ref=e128]:
+                - link "Terms of Use" [ref=e129] [cursor=pointer]:
+                  - /url: https://www.trustedmediabrands.com/terms-of-use/
+              - listitem [ref=e130]:
+                - link "Accessibility Statement" [ref=e131] [cursor=pointer]:
+                  - /url: https://www.trustedmediabrands.com/our-commitment-to-accessibility/
+              - listitem [ref=e132]:
+                - link "About Ads" [ref=e133] [cursor=pointer]:
+                  - /url: https://www.trustedmediabrands.com/privacy-policy/#advertising
+              - listitem [ref=e134]:
+                - link "Affiliate Program" [ref=e135] [cursor=pointer]:
+                  - /url: https://www.tasteofhome.com/taste-of-home-affiliate-program/
+              - listitem [ref=e136] [cursor=pointer]:
+                - img "Privacy Options Logo" [ref=e137]
+                - generic [ref=e138]: Your Privacy Choices
+              - listitem [ref=e139]:
+                - link "License our Content" [ref=e140] [cursor=pointer]:
+                  - /url: https://info.wrightsmedia.com/tatse-of-home-licensing?hs_preview=ArxnVAZx-114681971101
+          - generic [ref=e141]: © 2026 RDA Enthusiast Brands, LLC
+      - generic [ref=e142]:
+        - generic [ref=e143]:
+          - heading "Sign-up for recipes to your inbox" [level=3] [ref=e144]
+          - generic [ref=e145]:
+            - textbox "Add email address" [ref=e146]:
+              - /placeholder: Email Address
+            - button "Sign Up" [ref=e147] [cursor=pointer]
+        - generic [ref=e148]:
+          - generic [ref=e149]: "Taste of Home is America's #1 cooking magazine."
+          - link "Subscribe to Taste of home" [ref=e151] [cursor=pointer]:
+            - /url: https://order.tasteofhome.com/servlet/OrdersGateway?cds_mag_code=TOH&cds_page_id=275350&int_campaign=toh_20221014_footer&cds_response_key=IB7BDU101&int_source=direct&int_medium=toh.com&int_placement=footer&int_keycode=IB7BDU101
+            - img "Subscribe to Taste of home" [ref=e152]

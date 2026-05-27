@@ -1,0 +1,163 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - 'link "Goes to #masthead" [ref=e3] [cursor=pointer]':
+      - /url: "#masthead"
+      - text: Skip to content
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "Goes to https://www.goya.com/en/" [ref=e7] [cursor=pointer]:
+          - /url: https://www.goya.com/en/
+          - img "Goya Foods" [ref=e8]
+        - generic [ref=e10]:
+          - text: 
+          - generic [ref=e11]:
+            - link "Goes to /en/login" [ref=e12] [cursor=pointer]:
+              - /url: /en/login
+              - generic [ref=e13]: 
+            - 'link "Goes to #" [ref=e14] [cursor=pointer]':
+              - /url: "#"
+              - generic [ref=e15]: 
+            - button "" [ref=e16] [cursor=pointer]:
+              - generic [ref=e17]: 
+      - text: 
+    - main [ref=e18]:
+      - paragraph [ref=e21]: "404"
+      - generic [ref=e23]:
+        - img "404blender" [ref=e25]
+        - generic [ref=e26]:
+          - heading "Oops!" [level=1] [ref=e27]
+          - heading "404 page not found" [level=2] [ref=e28]
+          - paragraph [ref=e29]:
+            - text: The page you are looking for no longer exists. Try using our search tool or going back to our
+            - link "Goes to /en/" [ref=e30] [cursor=pointer]:
+              - /url: /en/
+              - text: home page
+            - text: "!"
+          - paragraph [ref=e31]:
+            - link "Goes to /en/page-results/" [ref=e32] [cursor=pointer]:
+              - /url: /en/page-results/
+              - text: Search
+    - contentinfo [ref=e33]:
+      - generic [ref=e36]:
+        - img "tagline" [ref=e38]
+        - 'link "Goes to #" [ref=e40] [cursor=pointer]':
+          - /url: "#"
+          - text: Oprima aquí para ver esta página en Español
+          - generic [ref=e41]: 
+      - generic [ref=e44]:
+        - list [ref=e48]:
+          - listitem [ref=e49]:
+            - link "Goes to https://www.goya.com/en/" [ref=e50] [cursor=pointer]:
+              - /url: https://www.goya.com/en/
+              - text: Home
+          - listitem [ref=e51]:
+            - link "Goes to https://shop.goya.com/" [ref=e52] [cursor=pointer]:
+              - /url: https://shop.goya.com/
+              - text: Shop
+              - generic [ref=e53]: 
+          - listitem [ref=e54]:
+            - link "Goes to /en/recipes" [ref=e55] [cursor=pointer]:
+              - /url: /en/recipes
+              - text: Recipes
+          - listitem [ref=e56]:
+            - link "Goes to https://www.goya.com/en/about-goya/" [ref=e57] [cursor=pointer]:
+              - /url: https://www.goya.com/en/about-goya/
+              - text: About Goya
+          - listitem [ref=e58]:
+            - link "Goes to https://www.goya.com/en/creations/" [ref=e59] [cursor=pointer]:
+              - /url: https://www.goya.com/en/creations/
+              - text: Creations
+          - listitem [ref=e60]:
+            - link "Goes to /en/products" [ref=e61] [cursor=pointer]:
+              - /url: /en/products
+              - text: Products
+          - listitem [ref=e62]:
+            - link "Goes to https://www.goya.com/en/contact-us/" [ref=e63] [cursor=pointer]:
+              - /url: https://www.goya.com/en/contact-us/
+              - text: Contact Us
+          - listitem [ref=e64]:
+            - link "Goes to /en/videos" [ref=e65] [cursor=pointer]:
+              - /url: /en/videos
+              - text: Videos
+          - listitem [ref=e66]:
+            - link "Goes to https://www.goya.com/en/contact-us/careers/" [ref=e67] [cursor=pointer]:
+              - /url: https://www.goya.com/en/contact-us/careers/
+              - text: Careers
+          - listitem [ref=e68]:
+            - link "Goes to https://www.goya.com/en/nutrition/" [ref=e69] [cursor=pointer]:
+              - /url: https://www.goya.com/en/nutrition/
+              - text: Nutrition
+          - listitem [ref=e70]:
+            - link "Goes to /where-to-buy/" [ref=e71] [cursor=pointer]:
+              - /url: /where-to-buy/
+              - text: Store Locator
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - heading "Newsletters from La Cocina Goya®" [level=3] [ref=e75]:
+                - text: Newsletters from La Cocina Goya
+                - superscript [ref=e76]: ®
+              - paragraph [ref=e77]: Get new recipes, special offers and promotions
+            - generic [ref=e79]:
+              - generic [ref=e82]:
+                - generic "0" [ref=e83]:
+                  - text: Email
+                  - generic [ref=e84]: (Required)
+                - textbox "1" [ref=e86]:
+                  - /placeholder: Email
+              - button "2" [ref=e88] [cursor=pointer]: Submit
+          - generic [ref=e89]:
+            - heading "Follow Us" [level=2] [ref=e91]
+            - generic [ref=e92]:
+              - link "Goes to https://www.facebook.com/GoyaFoods" [ref=e93] [cursor=pointer]:
+                - /url: https://www.facebook.com/GoyaFoods
+                - generic [ref=e94]: 
+              - link "Goes to https://instagram.com/goyafoods/" [ref=e95] [cursor=pointer]:
+                - /url: https://instagram.com/goyafoods/
+                - generic [ref=e96]: 
+              - link "Goes to https://www.tiktok.com/@goyafoods" [ref=e97] [cursor=pointer]:
+                - /url: https://www.tiktok.com/@goyafoods
+                - generic [ref=e98]: 
+              - link "Goes to https://twitter.com/GoyaFoods" [ref=e99] [cursor=pointer]:
+                - /url: https://twitter.com/GoyaFoods
+                - generic [ref=e100]: 
+              - link "Goes to https://www.pinterest.com/goyafoods/" [ref=e101] [cursor=pointer]:
+                - /url: https://www.pinterest.com/goyafoods/
+                - generic [ref=e102]: 
+              - link "Goes to https://www.youtube.com/goyafoodschannel" [ref=e103] [cursor=pointer]:
+                - /url: https://www.youtube.com/goyafoodschannel
+                - generic [ref=e104]: 
+      - generic [ref=e107]:
+        - list [ref=e110]:
+          - listitem [ref=e111]:
+            - link "Goes to /en/site-map/" [ref=e112] [cursor=pointer]:
+              - /url: /en/site-map/
+              - text: Site Map
+          - listitem [ref=e113]:
+            - link "Goes to /en/privacy-policy/" [ref=e114] [cursor=pointer]:
+              - /url: /en/privacy-policy/
+              - text: Privacy Policy
+          - listitem [ref=e115]:
+            - 'link "Goes to #" [ref=e116] [cursor=pointer]':
+              - /url: "#"
+              - text: Limit the Use of My Sensitive Personal Information
+          - listitem [ref=e117]:
+            - 'link "Goes to #" [ref=e118] [cursor=pointer]':
+              - /url: "#"
+              - text: Do Not Sell or Share My Personal Information
+        - paragraph [ref=e119]: Copyright © 2026 Goya Foods, Inc. All Rights Reserved.
+  - text:  
+  - text:   
+  - img [ref=e122]
+  - img [ref=e123]
+  - region "Cookie banner" [ref=e124]:
+    - dialog "Privacy" [ref=e125]:
+      - generic [ref=e127]:
+        - generic [ref=e130]:
+          - text: This website uses cookies, pixels, tags, web beacons and similar technologies (collectively, “Trackers”) for website functionality, enhancing user experience on this website, analyzing performance and traffic, and for marketing and targeted advertising. Through these Trackers, we also share information about your use of our website with our social media, advertising, and analytics partners. By clicking “Reject” below, we will not use such Trackers, except for strictly necessary cookies that help our website work. By clicking “Accept” below, you agree to the use of all Trackers. You may also exercise your right to opt-out of the sale of your personal information or sharing of your personal information for targeted advertising, by clicking on the “Do Not Sell or Share My Personal Information” link or communicating an opt-out preference signal. To learn more about our personal information handling practices and your rights, please see our
+          - link "Privacy Policy." [ref=e131] [cursor=pointer]:
+            - /url: https://www.goya.com/en/privacy-policy/
+        - generic [ref=e133]:
+          - button "Do Not Sell or Share My Personal Information, Opens the preference center dialog" [ref=e134] [cursor=pointer]: Do Not Sell or Share My Personal Information
+          - button "Reject" [ref=e135] [cursor=pointer]
+          - button "Accept" [ref=e136] [cursor=pointer]

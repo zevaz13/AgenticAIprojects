@@ -1,0 +1,149 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#content"
+    - navigation "Main Navigation" [ref=e5]:
+      - heading "Main Navigation" [level=2] [ref=e6]
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - button "Show Sidebar Navigation" [ref=e9] [cursor=pointer]:
+            - generic [ref=e10]: Show Sidebar Navigation
+          - link "What's Gaby Cooking" [ref=e11] [cursor=pointer]:
+            - /url: https://whatsgabycooking.com/
+            - img "What's Gaby Cooking" [ref=e12]
+        - search [ref=e15]:
+          - generic [ref=e16]:
+            - generic [ref=e17]: "Search for:"
+            - searchbox "Search for:" [ref=e19]
+        - list [ref=e22]:
+          - listitem [ref=e23]:
+            - link "Instagram" [ref=e24] [cursor=pointer]:
+              - /url: https://www.instagram.com/whatsgabycookin/
+              - img [ref=e25]
+          - listitem [ref=e27]:
+            - link "TikTok" [ref=e28] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@whatsgabycookin
+              - img [ref=e29]
+          - listitem [ref=e31]:
+            - link "Facebook" [ref=e32] [cursor=pointer]:
+              - /url: https://www.facebook.com/WhatsGabyCooking
+              - img [ref=e33]
+          - listitem [ref=e35]:
+            - link "Twitter" [ref=e36] [cursor=pointer]:
+              - /url: https://twitter.com/WhatsGabyCookin
+              - img [ref=e37]
+          - listitem [ref=e39]:
+            - link "Pinterest" [ref=e40] [cursor=pointer]:
+              - /url: http://pinterest.com/whatsgabycookin/
+              - img [ref=e41]
+  - generic [ref=e44]:
+    - generic [ref=e46]:
+      - img "404" [ref=e48]
+      - paragraph [ref=e49]: Hello, I am Thomas, Gabys amazing husband who is in charge of all things tech for WGC.
+      - paragraph [ref=e50]: Did you know that a “404” error or ‘page not found’ error is a Hypertext Transfer Protocol standard response code that indicates the server was unable to find what was requested.
+      - paragraph [ref=e51]: In human terms this means that I probably messed something up and the page you are trying to find can not be found.
+      - paragraph [ref=e52]: Since we are here I want to make things right. Let me give you my secret WGC Greatest Hits Menu, after all I have known Gaby for 18 years and have had a front row seat to everything What’s Gaby Cooking. If you are not interested in my secret menu I understand. I am sure you can find exactly what you are looking for with the search bar. Have a wonderful day.
+    - search [ref=e55]:
+      - generic [ref=e56]:
+        - generic [ref=e57]: "Search for:"
+        - searchbox "Search for:" [ref=e59]
+    - heading "Cocktail Hour" [level=2] [ref=e63]
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - link "The Ultimate Appetizer Board" [ref=e66] [cursor=pointer]:
+          - /url: https://whatsgabycooking.com/the-ultimate-appetizer-board/
+          - img "The Ultimate Appetizer Board" [ref=e68]
+        - heading "The Ultimate Appetizer Board" [level=3] [ref=e69]:
+          - link "The Ultimate Appetizer Board" [ref=e70] [cursor=pointer]:
+            - /url: https://whatsgabycooking.com/the-ultimate-appetizer-board/
+      - generic [ref=e71]:
+        - link "Anything from the bar cart" [ref=e72] [cursor=pointer]:
+          - /url: https://whatsgabycooking.com/how-to-stock-a-bar-cart/
+          - img "Anything from the bar cart" [ref=e74]
+        - heading "Anything from the bar cart" [level=3] [ref=e75]:
+          - link "Anything from the bar cart" [ref=e76] [cursor=pointer]:
+            - /url: https://whatsgabycooking.com/how-to-stock-a-bar-cart/
+      - paragraph [ref=e78]: You may or may not know this, but Gaby and I love to host. So when it comes to being the ultimate host you need to know how to build out the ultimate appetizer board and have a fully stocked bar cart. In my opinion, the trick to being a great host is to make sure everyone feels welcome and relaxed. What is more relaxing than having an awesome selection of booze to choose from and an appetizer board that has a little bit of everything for everyone.
+    - heading "Appetizers" [level=2] [ref=e81]
+    - generic [ref=e82]:
+      - generic [ref=e83]:
+        - link "Pizza Monkey Bread" [ref=e84] [cursor=pointer]:
+          - /url: https://whatsgabycooking.com/pizza-monkey-bread/
+          - img "Pizza Monkey Bread" [ref=e86]
+        - heading "Pizza Monkey Bread" [level=3] [ref=e87]:
+          - link "Pizza Monkey Bread" [ref=e88] [cursor=pointer]:
+            - /url: https://whatsgabycooking.com/pizza-monkey-bread/
+      - generic [ref=e89]:
+        - link "Cheesy Artichoke Dip" [ref=e90] [cursor=pointer]:
+          - /url: https://whatsgabycooking.com/cheesy-artichoke-dip/
+          - img "Cheesy Artichoke Dip" [ref=e92]
+        - heading "Cheesy Artichoke Dip" [level=3] [ref=e93]:
+          - link "Cheesy Artichoke Dip" [ref=e94] [cursor=pointer]:
+            - /url: https://whatsgabycooking.com/cheesy-artichoke-dip/
+      - paragraph [ref=e96]: Gaby has so many favorite appetizers, it really is hard to choose which ones are the best. For the theme of this menu I have chosen Pizza Monkey Bread and her mindblowing Cheesy Artichoke Dip. IFYKY. If I sit down at a table and these are the first two things brought out, I know its going to be an epic meal. Give me all the carbs to kick off the good times.
+    - heading "Sides" [level=2] [ref=e99]
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - link "Parmesan Roasted Potatoes" [ref=e102] [cursor=pointer]:
+          - /url: https://whatsgabycooking.com/parmesan-roasted-potatoes/
+          - img "Parmesan Roasted Potatoes" [ref=e104]
+        - heading "Parmesan Roasted Potatoes" [level=3] [ref=e105]:
+          - link "Parmesan Roasted Potatoes" [ref=e106] [cursor=pointer]:
+            - /url: https://whatsgabycooking.com/parmesan-roasted-potatoes/
+      - generic [ref=e107]:
+        - link "Roasted Broccolini with Lemon and Garlic" [ref=e108] [cursor=pointer]:
+          - /url: https://whatsgabycooking.com/roasted-broccolini/
+          - img "Roasted Broccolini with Lemon and Garlic" [ref=e110]
+        - heading "Roasted Broccolini with Lemon and Garlic" [level=3] [ref=e111]:
+          - link "Roasted Broccolini with Lemon and Garlic" [ref=e112] [cursor=pointer]:
+            - /url: https://whatsgabycooking.com/roasted-broccolini/
+      - paragraph [ref=e114]:
+        - text: Sides might just be my favorite part of the meal. It’s one of those elements of a meal that always under promises and over delivers. The two sides I have listed are my ALL TIME favorites from Gaby. I could eat these 8 days a week. The parm roasted potatoes (regular or sweet) are legendary and the crunch is perfection. The Broccolini with lemon and garlic is a match made in heaven. AND BECAUSE I enjoy sides so much I am giving you a bonus. Any of the roasted vegetables listed out here in the
+        - link "ROASTED VEGGIES" [ref=e115] [cursor=pointer]:
+          - /url: https://whatsgabycooking.com/roasted-vegetables-101/
+        - text: are to die for. Also they were the first things I ever learned how to cook.
+    - heading "Main Course" [level=2] [ref=e118]
+    - generic [ref=e119]:
+      - generic [ref=e120]:
+        - link "Chicken Parm Meatballs" [ref=e121] [cursor=pointer]:
+          - /url: https://whatsgabycooking.com/chicken-parmesan-meatballs/
+          - img "Chicken Parm Meatballs" [ref=e123]
+        - heading "Chicken Parm Meatballs" [level=3] [ref=e124]:
+          - link "Chicken Parm Meatballs" [ref=e125] [cursor=pointer]:
+            - /url: https://whatsgabycooking.com/chicken-parmesan-meatballs/
+      - generic [ref=e126]:
+        - link "Detroit Style Sausage Fennel Pizza" [ref=e127] [cursor=pointer]:
+          - /url: https://whatsgabycooking.com/detroit-style-sausage-fennel-pizza/
+          - img "Detroit Style Sausage Fennel Pizza" [ref=e129]
+        - heading "Detroit Style Sausage Fennel Pizza" [level=3] [ref=e130]:
+          - link "Detroit Style Sausage Fennel Pizza" [ref=e131] [cursor=pointer]:
+            - /url: https://whatsgabycooking.com/detroit-style-sausage-fennel-pizza/
+      - generic [ref=e132]:
+        - paragraph [ref=e133]: For the Main Event I am going with an iteration of the very first meal Gaby ever made for me, Chicken Parm. The Chicken Parm meatballs are very similar to the OG dish but in amazing bite sized balls filled with cheese. Perfection.
+        - paragraph [ref=e134]:
+          - text: For my second main course I am going the Detroit style pizza. We have a pizza oven and the pies we pump out of it are game changers. If you are interested in making pizza in your oven or in a pizza oven check out
+          - link "55 Pizza Recipes Better Than Delivery." [ref=e135] [cursor=pointer]:
+            - /url: https://whatsgabycooking.com/55-pizza-recipes-better-than-delivery/
+    - heading "Dessert" [level=2] [ref=e138]
+    - generic [ref=e139]:
+      - generic [ref=e140]:
+        - link "Snickerdoodle Blondies" [ref=e141] [cursor=pointer]:
+          - /url: https://whatsgabycooking.com/snickerdoodle-blondie-brownies/
+          - img "Snickerdoodle Blondies" [ref=e143]
+        - heading "Snickerdoodle Blondies" [level=3] [ref=e144]:
+          - link "Snickerdoodle Blondies" [ref=e145] [cursor=pointer]:
+            - /url: https://whatsgabycooking.com/snickerdoodle-blondie-brownies/
+      - generic [ref=e146]:
+        - link "Chocolate Butterscotch Salted Caramel Blondies" [ref=e147] [cursor=pointer]:
+          - /url: https://whatsgabycooking.com/chocolate-butterscotch-salted-caramel-blondies/
+          - img "Chocolate Butterscotch Salted Caramel Blondies" [ref=e149]
+        - heading "Chocolate Butterscotch Salted Caramel Blondies" [level=3] [ref=e150]:
+          - link "Chocolate Butterscotch Salted Caramel Blondies" [ref=e151] [cursor=pointer]:
+            - /url: https://whatsgabycooking.com/chocolate-butterscotch-salted-caramel-blondies/
+      - paragraph [ref=e153]: And finally for dessert, I am keeping things simple with a duo of blondies. My two favorite desserts gaby makes. The very first time I had the Butterscotch Blondies, I was caught eating them out of the pan (in the fridge) with a fork. These really are THE BEST THINGS EVER
+    - heading "Also a friendly reminder that the page you are looking for does not exist. Have a nice day :-)" [level=1] [ref=e156]:
+      - text: Also a friendly reminder that the page you are looking for does not exist.
+      - text: Have a nice day :-)
+  - generic [ref=e157]:
+    - navigation [ref=e161]
+    - navigation [ref=e166]

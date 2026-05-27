@@ -1,0 +1,309 @@
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - banner "Primary navigation" [ref=e6]:
+      - link "Grammarly Home" [ref=e7] [cursor=pointer]:
+        - /url: https://www.grammarly.com
+        - img "Grammarly Home" [ref=e8]
+      - generic [ref=e20]:
+        - navigation [ref=e21]:
+          - link "Contact Sales" [ref=e22] [cursor=pointer]:
+            - /url: https://www.grammarly.com/contact/sales
+          - link "Log in" [ref=e23] [cursor=pointer]:
+            - /url: https://www.grammarly.com/signin
+          - button "Get Grammarly It's free" [ref=e24] [cursor=pointer]:
+            - generic [ref=e26]:
+              - generic [ref=e27]: Get Grammarly
+              - generic [ref=e28]: It's free
+        - button "Open navigation menu" [ref=e29] [cursor=pointer]:
+          - img [ref=e31]
+    - navigation "Secondary navigation" [ref=e33]:
+      - link "Grammarly Blog Home" [ref=e34] [cursor=pointer]:
+        - /url: https://www.grammarly.com/blog/
+        - img "Grammarly Blog Home" [ref=e36]
+      - button "Open navigation menu" [ref=e39] [cursor=pointer]:
+        - img [ref=e41]
+  - main [ref=e43]:
+    - generic [ref=e44]:
+      - generic [ref=e45]: Sorry, this page doesn’t exist anymore.
+      - generic [ref=e46]:
+        - text: But never fear! You can still find a lot of useful writing
+        - text: tips on the Grammarly Blog.
+      - link "Visit Grammarly Blog" [ref=e47] [cursor=pointer]:
+        - /url: /blog/
+  - contentinfo [ref=e48]:
+    - generic [ref=e49]:
+      - navigation "Footer" [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e52]: Get Grammarly
+          - list [ref=e53]:
+            - listitem [ref=e54]:
+              - link "Docs" [ref=e55] [cursor=pointer]:
+                - /url: https://www.grammarly.com/docs
+            - listitem [ref=e56]:
+              - link "Grammarly for your desktop" [ref=e57] [cursor=pointer]:
+                - /url: https://www.grammarly.com/desktop
+            - listitem [ref=e58]:
+              - link "Grammarly for Windows" [ref=e59] [cursor=pointer]:
+                - /url: https://www.grammarly.com/desktop/windows
+            - listitem [ref=e60]:
+              - link "Grammarly for Mac" [ref=e61] [cursor=pointer]:
+                - /url: https://www.grammarly.com/desktop/mac
+            - listitem [ref=e62]:
+              - link "Grammarly browser extension" [ref=e63] [cursor=pointer]:
+                - /url: https://www.grammarly.com/browser
+            - listitem [ref=e64]:
+              - link "Grammarly for Chrome" [ref=e65] [cursor=pointer]:
+                - /url: https://www.grammarly.com/browser/chrome
+            - listitem [ref=e66]:
+              - link "Grammarly for Safari" [ref=e67] [cursor=pointer]:
+                - /url: https://www.grammarly.com/browser/safari
+            - listitem [ref=e68]:
+              - link "Grammarly for Firefox" [ref=e69] [cursor=pointer]:
+                - /url: https://www.grammarly.com/browser/firefox
+            - listitem [ref=e70]:
+              - link "Grammarly for Edge" [ref=e71] [cursor=pointer]:
+                - /url: https://www.grammarly.com/browser/edge
+            - listitem [ref=e72]:
+              - link "Grammarly for MS Office" [ref=e73] [cursor=pointer]:
+                - /url: https://www.grammarly.com/microsoft-office
+            - listitem [ref=e74]:
+              - link "Grammarly for Google Docs" [ref=e75] [cursor=pointer]:
+                - /url: https://www.grammarly.com/google-docs
+            - listitem [ref=e76]:
+              - link "Grammarly for mobile" [ref=e77] [cursor=pointer]:
+                - /url: https://www.grammarly.com/mobile
+            - listitem [ref=e78]:
+              - link "Grammarly for iPhone" [ref=e79] [cursor=pointer]:
+                - /url: https://www.grammarly.com/mobile/iphone
+            - listitem [ref=e80]:
+              - link "Grammarly for iPad" [ref=e81] [cursor=pointer]:
+                - /url: https://www.grammarly.com/mobile/ipad
+            - listitem [ref=e82]:
+              - link "Grammarly for Android" [ref=e83] [cursor=pointer]:
+                - /url: https://www.grammarly.com/mobile/android
+        - generic [ref=e84]:
+          - generic [ref=e85]: Learn more
+          - list [ref=e86]:
+            - listitem [ref=e87]:
+              - link "Plans" [ref=e88] [cursor=pointer]:
+                - /url: https://www.grammarly.com/plans
+            - listitem [ref=e89]:
+              - link "Grammarly Pro" [ref=e90] [cursor=pointer]:
+                - /url: https://www.grammarly.com/pro
+            - listitem [ref=e91]:
+              - link "Grammarly for Teams & Businesses" [ref=e92] [cursor=pointer]:
+                - /url: https://www.grammarly.com/business
+            - listitem [ref=e93]:
+              - link "Grammarly Enterprise" [ref=e94] [cursor=pointer]:
+                - /url: https://www.grammarly.com/business/enterprise
+            - listitem [ref=e95]:
+              - link "Grammarly for Education" [ref=e96] [cursor=pointer]:
+                - /url: https://www.grammarly.com/edu
+            - listitem [ref=e97]:
+              - link "AI assistant" [ref=e98] [cursor=pointer]:
+                - /url: https://www.grammarly.com/go-ai-assistant
+            - listitem [ref=e99]:
+              - link "AI at Grammarly" [ref=e100] [cursor=pointer]:
+                - /url: https://www.grammarly.com/ai
+            - listitem [ref=e101]:
+              - link "Generative AI" [ref=e102] [cursor=pointer]:
+                - /url: https://www.grammarly.com/ai/generative-ai
+            - listitem [ref=e103]:
+              - link "AI writing assistant" [ref=e104] [cursor=pointer]:
+                - /url: https://www.grammarly.com/ai-writing-assistant
+            - listitem [ref=e105]:
+              - link "Writing Process" [ref=e106] [cursor=pointer]:
+                - /url: https://www.grammarly.com/writing-process
+            - listitem [ref=e107]:
+              - link "Blog" [ref=e108] [cursor=pointer]:
+                - /url: https://www.grammarly.com/blog/
+            - listitem [ref=e109]:
+              - link "Tech blog" [ref=e110] [cursor=pointer]:
+                - /url: https://www.grammarly.com/blog/engineering/
+            - listitem [ref=e111]:
+              - link "Education blog" [ref=e112] [cursor=pointer]:
+                - /url: https://www.grammarly.com/blog/institutions/
+            - listitem [ref=e113]:
+              - link "Business blog" [ref=e114] [cursor=pointer]:
+                - /url: https://www.grammarly.com/business/learn/
+            - listitem [ref=e115]:
+              - link "Commonly confused words" [ref=e116] [cursor=pointer]:
+                - /url: https://www.grammarly.com/commonly-confused-words
+        - generic [ref=e117]:
+          - generic [ref=e118]: Features
+          - list [ref=e119]:
+            - listitem [ref=e120]:
+              - link "Grammar Checker" [ref=e121] [cursor=pointer]:
+                - /url: https://www.grammarly.com/grammar-check
+            - listitem [ref=e122]:
+              - link "Plagiarism Checker" [ref=e123] [cursor=pointer]:
+                - /url: https://www.grammarly.com/plagiarism-checker
+            - listitem [ref=e124]:
+              - link "AI agents" [ref=e125] [cursor=pointer]:
+                - /url: https://www.grammarly.com/ai-agents
+            - listitem [ref=e126]:
+              - link "AI Detector" [ref=e127] [cursor=pointer]:
+                - /url: https://www.grammarly.com/ai-detector
+            - listitem [ref=e128]:
+              - link "AI Humanizer" [ref=e129] [cursor=pointer]:
+                - /url: https://www.grammarly.com/ai-humanizer
+            - listitem [ref=e130]:
+              - link "Citation Generator" [ref=e131] [cursor=pointer]:
+                - /url: https://www.grammarly.com/citations
+            - listitem [ref=e132]:
+              - link "Essay Checker" [ref=e133] [cursor=pointer]:
+                - /url: https://www.grammarly.com/essay-checker
+            - listitem [ref=e134]:
+              - link "Paraphrasing Tool" [ref=e135] [cursor=pointer]:
+                - /url: https://www.grammarly.com/paraphrasing-tool
+            - listitem [ref=e136]:
+              - link "AI Chat" [ref=e137] [cursor=pointer]:
+                - /url: https://www.grammarly.com/ai-chat
+            - listitem [ref=e138]:
+              - link "AI Writing Tools" [ref=e139] [cursor=pointer]:
+                - /url: https://www.grammarly.com/ai/ai-writing-tools
+            - listitem [ref=e140]:
+              - link "Tone Detector" [ref=e141] [cursor=pointer]:
+                - /url: https://www.grammarly.com/tone
+            - listitem [ref=e142]:
+              - link "Word Counter" [ref=e143] [cursor=pointer]:
+                - /url: https://www.grammarly.com/word-counter
+            - listitem [ref=e144]:
+              - link "Character Counter" [ref=e145] [cursor=pointer]:
+                - /url: https://www.grammarly.com/character-counter
+            - listitem [ref=e146]:
+              - link "Paragraph Counter" [ref=e147] [cursor=pointer]:
+                - /url: https://www.grammarly.com/paragraph-counter
+            - listitem [ref=e148]:
+              - link "Sentence Counter" [ref=e149] [cursor=pointer]:
+                - /url: https://www.grammarly.com/sentence-counter
+            - listitem [ref=e150]:
+              - link "Style Guide" [ref=e151] [cursor=pointer]:
+                - /url: https://www.grammarly.com/business/styleguide
+            - listitem [ref=e152]:
+              - link "Snippets" [ref=e153] [cursor=pointer]:
+                - /url: https://www.grammarly.com/business/snippets
+            - listitem [ref=e154]:
+              - link "Analytics" [ref=e155] [cursor=pointer]:
+                - /url: https://www.grammarly.com/business/analytics
+            - listitem [ref=e156]:
+              - link "Brand Tones" [ref=e157] [cursor=pointer]:
+                - /url: https://www.grammarly.com/business/brand-tones
+            - listitem [ref=e158]:
+              - link "Authorship" [ref=e159] [cursor=pointer]:
+                - /url: https://www.grammarly.com/authorship
+            - listitem [ref=e160]:
+              - link "Citation Finder" [ref=e161] [cursor=pointer]:
+                - /url: https://www.grammarly.com/ai-agents/citation-finder
+            - listitem [ref=e162]:
+              - link "AI Grader" [ref=e163] [cursor=pointer]:
+                - /url: https://www.grammarly.com/ai-agents/ai-grader
+            - listitem [ref=e164]:
+              - link "Reader Reactions" [ref=e165] [cursor=pointer]:
+                - /url: https://www.grammarly.com/ai-agents/reader-reactions
+            - listitem [ref=e166]:
+              - link "Resume Builder" [ref=e167] [cursor=pointer]:
+                - /url: https://www.grammarly.com/resume-builder
+            - listitem [ref=e168]:
+              - link "Spell Checker" [ref=e169] [cursor=pointer]:
+                - /url: https://www.grammarly.com/spell-checker
+            - listitem [ref=e170]:
+              - link "Sentence Checker" [ref=e171] [cursor=pointer]:
+                - /url: https://www.grammarly.com/sentence-checker
+            - listitem [ref=e172]:
+              - link "Punctuation Checker" [ref=e173] [cursor=pointer]:
+                - /url: https://www.grammarly.com/punctuation-checker
+            - listitem [ref=e174]:
+              - link "Passive Voice Checker" [ref=e175] [cursor=pointer]:
+                - /url: https://www.grammarly.com/passive-voice-checker
+            - listitem [ref=e176]:
+              - link "Proofreader" [ref=e177] [cursor=pointer]:
+                - /url: https://www.grammarly.com/proofreading
+        - generic [ref=e178]:
+          - generic [ref=e179]: Company
+          - list [ref=e180]:
+            - listitem [ref=e181]:
+              - link "Superhuman" [ref=e182] [cursor=pointer]:
+                - /url: https://superhuman.com
+                - img [ref=e183]
+                - text: Superhuman
+            - listitem [ref=e185]:
+              - link "About" [ref=e186] [cursor=pointer]:
+                - /url: https://www.grammarly.com/about
+            - listitem [ref=e187]:
+              - link "We stand with Ukraine" [ref=e188] [cursor=pointer]:
+                - /url: https://www.grammarly.com/stand-with-ukraine
+            - listitem [ref=e189]:
+              - link "Responsible AI" [ref=e190] [cursor=pointer]:
+                - /url: https://www.grammarly.com/ai/responsible-ai
+            - listitem [ref=e191]:
+              - link "Careers & culture" [ref=e192] [cursor=pointer]:
+                - /url: https://www.superhuman.com/company/careers
+            - listitem [ref=e193]:
+              - link "Press" [ref=e194] [cursor=pointer]:
+                - /url: https://www.grammarly.com/press
+            - listitem [ref=e195]:
+              - link "Affiliates" [ref=e196] [cursor=pointer]:
+                - /url: https://www.grammarly.com/affiliates
+            - listitem [ref=e197]:
+              - link "Partners" [ref=e198] [cursor=pointer]:
+                - /url: https://superhuman.com/partners
+            - listitem [ref=e199]:
+              - link "Trust Center" [ref=e200] [cursor=pointer]:
+                - /url: https://www.grammarly.com/trust
+            - listitem [ref=e201]:
+              - link "Privacy policy" [ref=e202] [cursor=pointer]:
+                - /url: https://www.grammarly.com/privacy-policy
+            - listitem [ref=e203]:
+              - link "Terms of service" [ref=e204] [cursor=pointer]:
+                - /url: https://www.grammarly.com/terms
+            - listitem [ref=e205]:
+              - link "Customer business agreement" [ref=e206] [cursor=pointer]:
+                - /url: https://www.grammarly.com/terms/customer-business-agreement
+            - listitem [ref=e207]:
+              - link "CA notice at collection" [ref=e208] [cursor=pointer]:
+                - /url: https://www.grammarly.com/privacy-policy#sectionSingleColumn_5buwFstMYZvwdMBeRcp0dk
+            - listitem [ref=e209]:
+              - link "Security" [ref=e210] [cursor=pointer]:
+                - /url: https://www.grammarly.com/security
+            - listitem [ref=e211]:
+              - link "Accessibility" [ref=e212] [cursor=pointer]:
+                - /url: https://www.grammarly.com/accessibility-statement
+            - listitem [ref=e213]:
+              - link "Legal notices" [ref=e214] [cursor=pointer]:
+                - /url: https://superhuman.com/legal/notices
+            - listitem [ref=e215]:
+              - button "Cookies preferences center" [ref=e216] [cursor=pointer]:
+                - generic [ref=e217]: Cookies preferences center
+        - generic [ref=e218]:
+          - generic [ref=e219]: Connect
+          - list [ref=e220]:
+            - listitem [ref=e221]:
+              - link "Help center" [ref=e222] [cursor=pointer]:
+                - /url: https://support.grammarly.com/hc/en-us
+            - listitem [ref=e223]:
+              - link "Contact us" [ref=e224] [cursor=pointer]:
+                - /url: https://www.grammarly.com/contact
+            - listitem [ref=e225]:
+              - link "Facebook" [ref=e226] [cursor=pointer]:
+                - /url: https://www.facebook.com/grammarly
+                - img [ref=e227]
+                - text: Facebook
+            - listitem [ref=e229]:
+              - link "Instagram" [ref=e230] [cursor=pointer]:
+                - /url: https://www.instagram.com/grammarly/
+                - img [ref=e231]
+                - text: Instagram
+            - listitem [ref=e233]:
+              - link "X" [ref=e234] [cursor=pointer]:
+                - /url: https://x.com/Superhuman
+                - img [ref=e235]
+                - text: X
+            - listitem [ref=e237]:
+              - link "LinkedIn" [ref=e238] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/grammarly
+                - img [ref=e239]
+                - text: LinkedIn
+      - generic [ref=e241]:
+        - img "Grammarly Home" [ref=e242]
+        - paragraph [ref=e254]: 2026 © Superhuman Platform

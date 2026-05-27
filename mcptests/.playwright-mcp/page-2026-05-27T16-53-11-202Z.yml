@@ -1,0 +1,92 @@
+- generic [ref=e2]:
+  - list:
+    - listitem:
+      - link "Skip to primary navigation" [ref=e3] [cursor=pointer]:
+        - /url: "#genesis-nav-primary"
+    - listitem:
+      - link "Skip to main content" [ref=e4] [cursor=pointer]:
+        - /url: "#genesis-content"
+    - listitem:
+      - link "Skip to primary sidebar" [ref=e5] [cursor=pointer]:
+        - /url: "#genesis-sidebar-primary"
+    - listitem:
+      - link "Skip to footer" [ref=e6] [cursor=pointer]:
+        - /url: "#genesis-footer-widgets"
+  - generic [ref=e7]:
+    - link "menu icon" [ref=e9] [cursor=pointer]:
+      - /url: "#feastmobilemenu"
+      - img "menu icon" [ref=e10]
+    - link "go to homepage" [ref=e14] [cursor=pointer]:
+      - /url: https://www.mexicanplease.com
+      - img "go to homepage" [ref=e15]
+    - link "search icon" [ref=e17] [cursor=pointer]:
+      - /url: "#feastmobilemenu"
+      - img "search icon" [ref=e18]
+  - generic [ref=e21]:
+    - main [ref=e22]:
+      - navigation "breadcrumbs" [ref=e23]:
+        - link "Home" [ref=e26] [cursor=pointer]:
+          - /url: https://www.mexicanplease.com/
+      - article [ref=e27]:
+        - heading "Not found, error 404" [level=1] [ref=e28]
+        - generic [ref=e29]:
+          - paragraph [ref=e30]:
+            - text: The page you are looking for no longer exists. Perhaps you can return back to the
+            - link "homepage" [ref=e31] [cursor=pointer]:
+              - /url: https://www.mexicanplease.com/
+            - text: and see if you can find what you are looking for. Or, you can try finding it by using the search form below.
+          - search [ref=e32]:
+            - generic [ref=e33]: Search
+            - searchbox "Search" [ref=e34]
+            - button "Search" [ref=e35] [cursor=pointer]
+    - complementary "Primary Sidebar" [ref=e36]:
+      - heading "Primary Sidebar" [level=2] [ref=e37]
+      - paragraph [ref=e40]:
+        - text: Hey, I'm Patrick! I spent 2 years living in Cozumel and got obsessed with Mexican food. I built this site to share all the recipes and techniques I've learned along the way.
+        - link "Read More…" [ref=e41] [cursor=pointer]:
+          - /url: https://www.mexicanplease.com/about-me/
+      - search [ref=e44]:
+        - generic [ref=e45]: Search
+        - searchbox "Search" [ref=e46]
+        - button "Search" [ref=e47] [cursor=pointer]
+  - generic [ref=e48]:
+    - heading "Footer" [level=2] [ref=e49]
+    - generic [ref=e50]:
+      - generic [ref=e52]:
+        - paragraph [ref=e56]:
+          - link "Mexican Recipes" [ref=e57] [cursor=pointer]:
+            - /url: https://www.mexicanplease.com/recipes-new/
+        - paragraph [ref=e61]:
+          - link "Cooking Course" [ref=e62] [cursor=pointer]:
+            - /url: https://www.mexicanplease.com/courses/mexican-cooking-crash-course/
+        - paragraph [ref=e66]:
+          - link "Mexican Cooking 101" [ref=e67] [cursor=pointer]:
+            - /url: https://www.mexicanplease.com/category/mexican-cooking-101/
+        - paragraph [ref=e71]:
+          - link "Ingredients" [ref=e72] [cursor=pointer]:
+            - /url: https://www.mexicanplease.com/mexican-cooking-survival-guide-ingredient-explanations/
+        - link "Salsas" [ref=e76] [cursor=pointer]:
+          - /url: https://www.mexicanplease.com/category/salsas/
+      - generic [ref=e77]:
+        - paragraph [ref=e81]:
+          - link "Starting a Food Blog" [ref=e82] [cursor=pointer]:
+            - /url: https://www.mexicanplease.com/starting-food-blog/
+        - paragraph [ref=e86]:
+          - link "Enchilada Recipes" [ref=e87] [cursor=pointer]:
+            - /url: https://www.mexicanplease.com/category/enchiladas/
+        - paragraph [ref=e91]:
+          - link "About Me" [ref=e92] [cursor=pointer]:
+            - /url: https://www.mexicanplease.com/about-me/
+        - paragraph [ref=e96]:
+          - link "Contact" [ref=e97] [cursor=pointer]:
+            - /url: https://www.mexicanplease.com/contact-2/
+        - paragraph [ref=e101]:
+          - link "Disclaimer" [ref=e102] [cursor=pointer]:
+            - /url: https://www.mexicanplease.com/disclaimer/
+  - contentinfo [ref=e103]:
+    - paragraph [ref=e106]:
+      - text: © 2025
+      - link "Mexican Please" [ref=e107] [cursor=pointer]:
+        - /url: https://www.mexicanplease.com
+      - link "- Privacy Policy" [ref=e108] [cursor=pointer]:
+        - /url: https://www.mexicanplease.com/privacy-policy

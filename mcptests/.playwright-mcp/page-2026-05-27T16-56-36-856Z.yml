@@ -1,0 +1,214 @@
+- generic [ref=e2]:
+  - link "Skip to content" [ref=e3] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e4]:
+    - button "Menu" [ref=e5] [cursor=pointer]:
+      - img [ref=e6]
+    - paragraph [ref=e9]:
+      - link "A Couple Cooks" [ref=e10] [cursor=pointer]:
+        - /url: https://www.acouplecooks.com
+    - navigation [ref=e11]:
+      - list [ref=e13]:
+        - listitem [ref=e14]:
+          - link "Cookbook!" [ref=e15] [cursor=pointer]:
+            - /url: https://www.acouplecooks.com/cookbook/
+    - button "Search" [ref=e16] [cursor=pointer]:
+      - img [ref=e17]
+  - paragraph [ref=e21]:
+    - link "Home" [ref=e24] [cursor=pointer]:
+      - /url: https://www.acouplecooks.com/
+      - generic [ref=e25]:
+        - img [ref=e26]
+        - text: Home
+  - main [ref=e30]:
+    - generic [ref=e31]:
+      - heading "Nothing Found" [level=1] [ref=e33]
+      - generic [ref=e34]:
+        - paragraph [ref=e35]: It seems we can’t find what you’re looking for. Perhaps searching can help.
+        - search [ref=e36]:
+          - generic [ref=e37]:
+            - generic [ref=e38]: Search for
+            - searchbox "Search for" [ref=e39]
+          - button "Submit" [ref=e40]:
+            - img [ref=e41]
+  - contentinfo [ref=e43]:
+    - generic [ref=e44]:
+      - generic [ref=e45]:
+        - generic [ref=e46]:
+          - img "A Couple Cooks" [ref=e47]
+          - generic [ref=e48]:
+            - paragraph [ref=e50]:
+              - link "A Couple Cooks" [ref=e51] [cursor=pointer]:
+                - /url: https://www.acouplecooks.com
+            - paragraph [ref=e52]: Recipes that make your life better!
+        - list [ref=e54]:
+          - listitem [ref=e55]:
+            - link "Instagram" [ref=e56] [cursor=pointer]:
+              - /url: https://www.instagram.com/acouplecooks/
+              - img [ref=e57]
+          - listitem [ref=e59]:
+            - link "YouTube" [ref=e60] [cursor=pointer]:
+              - /url: https://www.youtube.com/aCoupleCooksTV
+              - img [ref=e61]
+          - listitem [ref=e63]:
+            - link "Pinterest" [ref=e64] [cursor=pointer]:
+              - /url: https://www.pinterest.com/acouplecooks/
+              - img [ref=e65]
+          - listitem [ref=e67]:
+            - link "Facebook" [ref=e68] [cursor=pointer]:
+              - /url: https://www.facebook.com/aCoupleCooks
+              - img [ref=e69]
+      - navigation [ref=e71]:
+        - list [ref=e72]:
+          - listitem [ref=e73]:
+            - link "Recipes" [ref=e74] [cursor=pointer]:
+              - /url: https://www.acouplecooks.com/category/recipes/
+            - list [ref=e75]:
+              - listitem [ref=e76]:
+                - link "All Recipes" [ref=e77] [cursor=pointer]:
+                  - /url: /category/recipes/
+              - listitem [ref=e78]:
+                - link "Dinners" [ref=e79] [cursor=pointer]:
+                  - /url: /category/recipes/everyday-healthy-dinner-recipes/
+              - listitem [ref=e80]:
+                - link "Drinks" [ref=e81] [cursor=pointer]:
+                  - /url: /category/recipes/drink-recipes/
+              - listitem [ref=e82]:
+                - link "Recipes by Type" [ref=e83] [cursor=pointer]:
+                  - /url: /recipe-ideas/
+              - listitem [ref=e84]:
+                - link "Side Dishes & Salads" [ref=e85] [cursor=pointer]:
+                  - /url: /category/recipes/side-dishes-salad-recipes/
+              - listitem [ref=e86]:
+                - link "Appetizers & Snacks" [ref=e87] [cursor=pointer]:
+                  - /url: /category/recipes/appetizers-healthy-snack-recipes/
+              - listitem [ref=e88]:
+                - link "Breakfast & Brunch" [ref=e89] [cursor=pointer]:
+                  - /url: /category/recipes/breakfast-brunch-recipes/
+              - listitem [ref=e90]:
+                - link "Lunch Recipes" [ref=e91] [cursor=pointer]:
+                  - /url: /tag/lunch/
+              - listitem [ref=e92]:
+                - link "Desserts" [ref=e93] [cursor=pointer]:
+                  - /url: /category/recipes/dessert-recipes/
+              - listitem [ref=e94]:
+                - link "Baked Goods" [ref=e95] [cursor=pointer]:
+                  - /url: /category/recipes/baked-goods/
+              - listitem [ref=e96]:
+                - link "Mediterranean Diet" [ref=e97] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e98]:
+                - link "Pescatarian Recipes" [ref=e99] [cursor=pointer]:
+                  - /url: /pescatarian-recipes/
+              - listitem [ref=e100]:
+                - link "Vegetarian Recipes" [ref=e101] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e102]:
+                - link "Vegan Recipes" [ref=e103] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e104]:
+                - link "Gluten Free Recipes" [ref=e105] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e106]:
+                - link "High Protein" [ref=e107] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e108]:
+                - link "Cooking Basics" [ref=e109] [cursor=pointer]:
+                  - /url: "#"
+          - listitem [ref=e110]:
+            - link "Dinners" [ref=e111] [cursor=pointer]:
+              - /url: /category/recipes/everyday-healthy-dinner-recipes/
+            - list [ref=e112]:
+              - listitem [ref=e113]:
+                - link "All Dinner Recipes" [ref=e114] [cursor=pointer]:
+                  - /url: /category/recipes/everyday-healthy-dinner-recipes/
+              - listitem [ref=e115]:
+                - link "Fast Dinner Ideas" [ref=e116] [cursor=pointer]:
+                  - /url: /category/recipes/fast-dinner-ideas/
+              - listitem [ref=e117]:
+                - link "Special Dinners" [ref=e118] [cursor=pointer]:
+                  - /url: /category/recipes/special-occasion-dinner-recipes/
+              - listitem [ref=e119]:
+                - link "Vegetarian Dinners" [ref=e120] [cursor=pointer]:
+                  - /url: /category/recipes/everyday-healthy-dinner-recipes/?_tag=vegetarian
+              - listitem [ref=e121]:
+                - link "Vegan Dinners" [ref=e122] [cursor=pointer]:
+                  - /url: /category/recipes/everyday-healthy-dinner-recipes/?_tag=vegan
+              - listitem [ref=e123]:
+                - link "Gluten Free Dinners" [ref=e124] [cursor=pointer]:
+                  - /url: /category/recipes/everyday-healthy-dinner-recipes/?_tag=gluten-free
+              - listitem [ref=e125]:
+                - link "Pasta Recipes" [ref=e126] [cursor=pointer]:
+                  - /url: /pasta-recipes/
+              - listitem [ref=e127]:
+                - link "Tofu Dinners" [ref=e128] [cursor=pointer]:
+                  - /url: /tofu-recipes/
+              - listitem [ref=e129]:
+                - link "Chicken Dinners" [ref=e130] [cursor=pointer]:
+                  - /url: /chicken-dinner-ideas/
+              - listitem [ref=e131]:
+                - link "Seafood Dinners" [ref=e132] [cursor=pointer]:
+                  - /url: /easy-seafood-recipes/
+          - listitem [ref=e133]:
+            - link "Drinks" [ref=e134] [cursor=pointer]:
+              - /url: /category/recipes/drink-recipes/
+            - list [ref=e135]:
+              - listitem [ref=e136]:
+                - link "All Drinks" [ref=e137] [cursor=pointer]:
+                  - /url: /category/recipes/drink-recipes/
+              - listitem [ref=e138]:
+                - link "Cocktails" [ref=e139] [cursor=pointer]:
+                  - /url: /category/recipes/drink-recipes/cocktails/
+              - listitem [ref=e140]:
+                - link "Smoothies" [ref=e141] [cursor=pointer]:
+                  - /url: /category/recipes/drink-recipes/smoothies/
+              - listitem [ref=e142]:
+                - link "Coffee, Tea & More" [ref=e143] [cursor=pointer]:
+                  - /url: /category/recipes/drink-recipes/more-drinks/
+              - listitem [ref=e144]:
+                - link "Liquor Guides" [ref=e145] [cursor=pointer]:
+                  - /url: /category/recipes/drink-recipes/liquor-gui
+          - listitem [ref=e146]:
+            - link "More" [ref=e147] [cursor=pointer]:
+              - /url: "#"
+            - list [ref=e148]:
+              - listitem [ref=e149]:
+                - link "Start Here" [ref=e150] [cursor=pointer]:
+                  - /url: /start-here/
+              - listitem [ref=e151]:
+                - link "Editorial Policy" [ref=e152] [cursor=pointer]:
+                  - /url: /editorial-policy/
+              - listitem [ref=e153]:
+                - link "Why to Trust Us" [ref=e154] [cursor=pointer]:
+                  - /url: /why-to-trust-us/
+              - listitem [ref=e155]:
+                - link "Accessibility Statement" [ref=e156] [cursor=pointer]:
+                  - /url: /accessibility-statement/
+              - listitem [ref=e157]:
+                - link "How To" [ref=e158] [cursor=pointer]:
+                  - /url: /category/recipes/essential-recipes/
+              - listitem [ref=e159]:
+                - link "Other" [ref=e160] [cursor=pointer]:
+                  - /url: "#"
+          - listitem [ref=e161]:
+            - link "—" [ref=e162] [cursor=pointer]:
+              - /url: "#"
+            - list [ref=e163]:
+              - listitem [ref=e164]:
+                - link "Cookbook!" [ref=e165] [cursor=pointer]:
+                  - /url: https://www.acouplecooks.com/cookbook/
+              - listitem [ref=e166]:
+                - link "About" [ref=e167] [cursor=pointer]:
+                  - /url: https://www.acouplecooks.com/about/
+              - listitem [ref=e168]:
+                - link "Contact" [ref=e169] [cursor=pointer]:
+                  - /url: https://www.acouplecooks.com/contact-us/
+              - listitem [ref=e170]:
+                - link "Subscribe" [ref=e171] [cursor=pointer]:
+                  - /url: https://www.acouplecooks.com/subscribe/
+        - link "Back to Top" [ref=e172] [cursor=pointer]:
+          - /url: "#top"
+      - generic [ref=e173]:
+        - text: © 2026 - A Couple Cooks® ·
+        - link "Privacy Policy & Disclosure" [ref=e174] [cursor=pointer]:
+          - /url: https://www.acouplecooks.com/privacy-policy/
